@@ -8,8 +8,10 @@ function getDailySummaryTool(phoneNumber, date = null) {
   const summary = getDailySummary(user.id, date);
   const targetCalories = user.target_calories || 2000;
   const targetProtein = user.target_protein || Math.round((user.weight_kg || 65) * 1.6);
+  const targetSugar = user.target_sugar || 50; // default 50g per day
   const remainingCalories = targetCalories - summary.total_calories;
   const remainingProtein = targetProtein - summary.total_protein;
+  const remainingSugar = targetSugar - summary.total_sugar;
 
   // Format daftar makanan
   const mealList = summary.meals.map((meal, i) => ({
@@ -20,6 +22,7 @@ function getDailySummaryTool(phoneNumber, date = null) {
     protein: Math.round(meal.protein),
     carbs: Math.round(meal.carbs),
     fat: Math.round(meal.fat),
+    sugar: Math.round(meal.sugar || 0),
     time: meal.meal_time || 'tidak dicatat',
     logged_at: meal.logged_at
   }));
@@ -32,6 +35,10 @@ function getDailySummaryTool(phoneNumber, date = null) {
     total_protein: Math.round(summary.total_protein),
     target_protein: targetProtein,
     remaining_protein: Math.max(0, Math.round(remainingProtein)),
+    total_sugar: Math.round(summary.total_sugar),
+    target_sugar: targetSugar,
+    remaining_sugar: Math.max(0, Math.round(remainingSugar)),
+    sugar_warning: summary.total_sugar >= targetSugar ? 'Batas gula harian sudah tercapai/terlewati!' : (summary.total_sugar >= targetSugar * 0.8 ? 'Mendekati batas maksimal gula harian!' : null),
     total_carbs: Math.round(summary.total_carbs),
     total_fat: Math.round(summary.total_fat),
     total_meals: summary.total_meals,

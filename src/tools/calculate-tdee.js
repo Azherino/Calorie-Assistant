@@ -82,6 +82,11 @@ function calculateTdee(phoneNumber, params) {
       range_grams: `${minProtein} - ${maxProtein} gram/hari`,
       multiplier_info: `${proteinMultiplier}g per kg berat badan (BB: ${weight_kg} kg)`
     },
+    sugar_recommendation: {
+      max_grams: 50,
+      ideal_grams: 30,
+      description: 'Batas maksimal Kemenkes/WHO 50 gram/hari (~4 sendok makan), ideal < 30 gram/hari untuk kesehatan optimal'
+    },
     recommendations: {
       maintain: tdee,
       mild_loss: tdee - 250,
@@ -95,7 +100,8 @@ function calculateTdee(phoneNumber, params) {
       weight_kg,
       height_cm,
       activity_level: normalizedActivity,
-      target_protein_grams: targetProtein
+      target_protein_grams: targetProtein,
+      target_sugar_grams: 50
     }
   };
 }

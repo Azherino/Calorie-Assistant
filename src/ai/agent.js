@@ -162,6 +162,7 @@ const groqTools = [
           protein: { type: 'number', description: 'Protein dalam gram' },
           carbs: { type: 'number', description: 'Karbohidrat dalam gram' },
           fat: { type: 'number', description: 'Lemak dalam gram' },
+          sugar: { type: 'number', description: 'Gula dalam gram (terutama minuman/makanan manis)' },
           meal_time: { type: 'string', enum: ['breakfast', 'lunch', 'dinner', 'snack'], description: 'Waktu makan' }
         },
         required: ['food_name', 'calories']
@@ -172,7 +173,7 @@ const groqTools = [
     type: 'function',
     function: {
       name: 'calculate_tdee',
-      description: 'Hitung kebutuhan kalori harian (TDEE) berdasarkan profil user.',
+      description: 'Hitung kebutuhan kalori harian (TDEE), target protein, dan batas gula berdasarkan profil user.',
       parameters: {
         type: 'object',
         properties: {
@@ -190,7 +191,7 @@ const groqTools = [
     type: 'function',
     function: {
       name: 'get_daily_summary',
-      description: 'Ambil rekap kalori dan nutrisi untuk tanggal tertentu.',
+      description: 'Ambil rekap kalori, protein, gula, dan nutrisi untuk tanggal tertentu.',
       parameters: {
         type: 'object',
         properties: {
@@ -203,11 +204,11 @@ const groqTools = [
     type: 'function',
     function: {
       name: 'update_profile',
-      description: 'Update data profil user seperti berat badan, tinggi, nama, dll.',
+      description: 'Update data profil user seperti berat badan, tinggi, nama, target_protein, target_sugar, dll.',
       parameters: {
         type: 'object',
         properties: {
-          field: { type: 'string', description: 'Field: "nama", "berat"/"bb", "tinggi"/"tb", "umur", "gender", "aktivitas", "goal", "target_kalori"' },
+          field: { type: 'string', description: 'Field: "nama", "berat"/"bb", "tinggi"/"tb", "umur", "gender", "aktivitas", "goal", "target_kalori", "target_protein", "target_sugar"' },
           value: { type: 'string', description: 'Nilai baru' }
         },
         required: ['field', 'value']
@@ -231,20 +232,20 @@ async function callGroq(userMessage, phoneNumber) {
 ## Tool Calling (WAJIB diikuti)
 Kamu punya akses ke tools berikut. Jika user meminta sesuatu yang memerlukan tool, KAMU HARUS merespons HANYA dengan JSON (tanpa teks lain):
 
-1. calculate_tdee - Hitung kebutuhan kalori harian
+1. calculate_tdee - Hitung kebutuhan kalori harian, target protein & batas gula
    Format: {"tool":"calculate_tdee","args":{"age":22,"gender":"pria","weight_kg":67,"height_cm":173,"activity_level":"6-7x seminggu"}}
 
 2. search_food - Cari nutrisi makanan
-   Format: {"tool":"search_food","args":{"query":"nasi goreng"}}
+   Format: {"tool":"search_food","args":{"query":"kopi susu"}}
 
-3. log_meal - Catat makanan yang dimakan
-   Format: {"tool":"log_meal","args":{"food_name":"Nasi Goreng","portion":"1 piring","calories":550,"protein":15,"carbs":70,"fat":20,"meal_time":"lunch"}}
+3. log_meal - Catat makanan/minuman yang dimakan
+   Format: {"tool":"log_meal","args":{"food_name":"Kopi Susu Gula Aren","portion":"1 gelas","calories":180,"protein":4,"carbs":28,"fat":6,"sugar":22,"meal_time":"snack"}}
 
-4. get_daily_summary - Rekap kalori hari ini
+4. get_daily_summary - Rekap kalori, protein, gula hari ini
    Format: {"tool":"get_daily_summary","args":{"date":null}}
 
 5. update_profile - Update profil user
-   Format: {"tool":"update_profile","args":{"field":"berat","value":"67"}}
+   Format: {"tool":"update_profile","args":{"field":"target_sugar","value":"30"}}
 
 ATURAN:
 - Jika perlu memanggil tool, respons HANYA JSON, tanpa teks apapun sebelum/sesudahnya

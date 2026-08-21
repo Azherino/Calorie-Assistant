@@ -16,6 +16,7 @@ function initializeSchema() {
       goal TEXT DEFAULT NULL,
       target_calories INTEGER DEFAULT NULL,
       target_protein INTEGER DEFAULT NULL,
+      target_sugar REAL DEFAULT NULL,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
@@ -29,6 +30,7 @@ function initializeSchema() {
       protein REAL DEFAULT 0,
       carbs REAL DEFAULT 0,
       fat REAL DEFAULT 0,
+      sugar REAL DEFAULT 0,
       meal_time TEXT DEFAULT NULL,
       logged_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       FOREIGN KEY (user_id) REFERENCES users(id)
@@ -41,6 +43,12 @@ function initializeSchema() {
   // Migrasi kolom jika tabel lama sudah ada
   try {
     db.exec(`ALTER TABLE users ADD COLUMN target_protein INTEGER DEFAULT NULL`);
+  } catch (_) {}
+  try {
+    db.exec(`ALTER TABLE users ADD COLUMN target_sugar REAL DEFAULT NULL`);
+  } catch (_) {}
+  try {
+    db.exec(`ALTER TABLE meal_logs ADD COLUMN sugar REAL DEFAULT 0`);
   } catch (_) {}
 
   console.log('✅ Database schema initialized');

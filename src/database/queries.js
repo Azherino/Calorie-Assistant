@@ -27,7 +27,7 @@ function updateUser(phoneNumber, field, value) {
   const db = getDb();
   const allowedFields = [
     'name', 'age', 'gender', 'height_cm', 'weight_kg',
-    'activity_level', 'goal', 'target_calories', 'target_protein'
+    'activity_level', 'goal', 'target_calories', 'target_protein', 'target_sugar'
   ];
 
   if (!allowedFields.includes(field)) {
@@ -45,7 +45,7 @@ function updateUserMultiple(phoneNumber, updates) {
   const db = getDb();
   const allowedFields = [
     'name', 'age', 'gender', 'height_cm', 'weight_kg',
-    'activity_level', 'goal', 'target_calories', 'target_protein'
+    'activity_level', 'goal', 'target_calories', 'target_protein', 'target_sugar'
   ];
 
   const setClauses = [];
@@ -81,13 +81,14 @@ function insertMealLog(userId, mealData) {
     protein = 0,
     carbs = 0,
     fat = 0,
+    sugar = 0,
     meal_time = null
   } = mealData;
 
   const result = db.prepare(`
-    INSERT INTO meal_logs (user_id, food_name, portion, calories, protein, carbs, fat, meal_time)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-  `).run(userId, food_name, portion, calories, protein, carbs, fat, meal_time);
+    INSERT INTO meal_logs (user_id, food_name, portion, calories, protein, carbs, fat, sugar, meal_time)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+  `).run(userId, food_name, portion, calories, protein, carbs, fat, sugar, meal_time);
 
   return { id: result.lastInsertRowid, ...mealData };
 }
@@ -113,7 +114,8 @@ function getDailySummary(userId, date = null) {
       COALESCE(SUM(calories), 0) as total_calories,
       COALESCE(SUM(protein), 0) as total_protein,
       COALESCE(SUM(carbs), 0) as total_carbs,
-      COALESCE(SUM(fat), 0) as total_fat
+      COALESCE(SUM(fat), 0) as total_fat,
+      COALESCE(SUM(sugar), 0) as total_sugar
     FROM meal_logs 
     WHERE user_id = ? AND DATE(logged_at) = DATE(?)
   `).get(userId, targetDate);

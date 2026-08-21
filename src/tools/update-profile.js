@@ -34,7 +34,11 @@ function updateProfile(phoneNumber, field, value) {
     'target': 'target_calories',
     'target_protein': 'target_protein',
     'protein': 'target_protein',
-    'target protein': 'target_protein'
+    'target protein': 'target_protein',
+    'target_sugar': 'target_sugar',
+    'target_gula': 'target_sugar',
+    'gula': 'target_sugar',
+    'sugar': 'target_sugar'
   };
 
   const dbField = fieldMapping[field.toLowerCase()] || field.toLowerCase();
@@ -58,7 +62,8 @@ function updateProfile(phoneNumber, field, value) {
         activity_level: updatedUser.activity_level,
         goal: updatedUser.goal,
         target_calories: updatedUser.target_calories,
-        target_protein: updatedUser.target_protein
+        target_protein: updatedUser.target_protein,
+        target_sugar: updatedUser.target_sugar
       }
     };
   } catch (error) {

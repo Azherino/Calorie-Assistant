@@ -50,6 +50,10 @@ const geminiTools = [
               type: Type.NUMBER,
               description: 'Lemak dalam gram'
             },
+            sugar: {
+              type: Type.NUMBER,
+              description: 'Gula dalam gram (sugar), terutama untuk makanan/minuman manis'
+            },
             meal_time: {
               type: Type.STRING,
               enum: ['breakfast', 'lunch', 'dinner', 'snack'],
@@ -61,7 +65,7 @@ const geminiTools = [
       },
       {
         name: 'calculate_tdee',
-        description: 'Hitung kebutuhan kalori harian (TDEE) berdasarkan profil user. Minta data yang dibutuhkan dari user kalau belum lengkap.',
+        description: 'Hitung kebutuhan kalori harian (TDEE) dan target protein & batas konsumsi gula harian.',
         parameters: {
           type: Type.OBJECT,
           properties: {
@@ -91,7 +95,7 @@ const geminiTools = [
       },
       {
         name: 'get_daily_summary',
-        description: 'Ambil rekap kalori dan nutrisi untuk tanggal tertentu. Kalau user tidak sebut tanggal, gunakan hari ini.',
+        description: 'Ambil rekap kalori, protein, gula, dan nutrisi untuk tanggal tertentu. Kalau user tidak sebut tanggal, gunakan hari ini.',
         parameters: {
           type: Type.OBJECT,
           properties: {
@@ -104,13 +108,13 @@ const geminiTools = [
       },
       {
         name: 'update_profile',
-        description: 'Update data profil user seperti berat badan terbaru, tinggi, nama, dll.',
+        description: 'Update data profil user seperti berat badan terbaru, tinggi, nama, target_protein, target_sugar, dll.',
         parameters: {
           type: Type.OBJECT,
           properties: {
             field: {
               type: Type.STRING,
-              description: 'Field yang mau diupdate: "nama", "berat"/"bb", "tinggi"/"tb", "umur", "gender", "aktivitas", "goal", "target_kalori", "target_protein"'
+              description: 'Field yang mau diupdate: "nama", "berat"/"bb", "tinggi"/"tb", "umur", "gender", "aktivitas", "goal", "target_kalori", "target_protein", "target_sugar"'
             },
             value: {
               type: Type.STRING,
