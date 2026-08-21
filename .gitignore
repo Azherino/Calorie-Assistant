@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+api.md
+*.key
+
+# WhatsApp Session Auth (PENTING: Jangan sampai terupload ke publik)
+auth_info/
+
+# SQLite Database & Temp Files
+*.db
+*.db-shm
+*.db-wal
+
+# Logs & System
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+

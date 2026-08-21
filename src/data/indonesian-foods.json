@@ -1,0 +1,4381 @@
+[
+  {
+    "name": "Nasi Putih",
+    "aliases": ["nasi", "nasi biasa", "nasi anget"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring (150g)",
+    "calories": 195,
+    "protein": 3.6,
+    "carbs": 43.2,
+    "fat": 0.3
+  },
+  {
+    "name": "Nasi Goreng",
+    "aliases": ["nasgor", "nasi goreng biasa", "nasi goreng kampung"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring (250g)",
+    "calories": 370,
+    "protein": 10,
+    "carbs": 52,
+    "fat": 14
+  },
+  {
+    "name": "Nasi Uduk",
+    "aliases": ["nasi uduk betawi"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring (200g)",
+    "calories": 300,
+    "protein": 5,
+    "carbs": 45,
+    "fat": 11
+  },
+  {
+    "name": "Nasi Kuning",
+    "aliases": ["nasi kuning tumpeng"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring (200g)",
+    "calories": 290,
+    "protein": 5,
+    "carbs": 44,
+    "fat": 10
+  },
+  {
+    "name": "Nasi Padang Komplit",
+    "aliases": ["nasi padang", "nasi kapau"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi komplit",
+    "calories": 750,
+    "protein": 30,
+    "carbs": 60,
+    "fat": 40
+  },
+  {
+    "name": "Lontong/Ketupat",
+    "aliases": ["lontong", "ketupat", "lontongan"],
+    "category": "karbohidrat",
+    "serving_size": "2 potong (150g)",
+    "calories": 170,
+    "protein": 3,
+    "carbs": 38,
+    "fat": 0.4
+  },
+  {
+    "name": "Bubur Ayam",
+    "aliases": ["bubur", "bubur ayam bandung", "bubur ayam jakarta"],
+    "category": "karbohidrat",
+    "serving_size": "1 mangkuk (300g)",
+    "calories": 350,
+    "protein": 15,
+    "carbs": 45,
+    "fat": 12
+  },
+  {
+    "name": "Mie Goreng Instan",
+    "aliases": ["mie goreng", "indomie goreng", "mie instant goreng", "indomie"],
+    "category": "karbohidrat",
+    "serving_size": "1 bungkus (85g)",
+    "calories": 380,
+    "protein": 8,
+    "carbs": 52,
+    "fat": 15
+  },
+  {
+    "name": "Mie Kuah Instan",
+    "aliases": ["mie kuah", "indomie kuah", "mie rebus"],
+    "category": "karbohidrat",
+    "serving_size": "1 bungkus (85g)",
+    "calories": 340,
+    "protein": 8,
+    "carbs": 48,
+    "fat": 13
+  },
+  {
+    "name": "Mie Ayam",
+    "aliases": ["mie ayam bakso", "mi ayam"],
+    "category": "karbohidrat",
+    "serving_size": "1 mangkuk",
+    "calories": 420,
+    "protein": 18,
+    "carbs": 55,
+    "fat": 14
+  },
+  {
+    "name": "Kwetiau Goreng",
+    "aliases": ["kwetiaw", "kwetiau"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 400,
+    "protein": 12,
+    "carbs": 50,
+    "fat": 16
+  },
+  {
+    "name": "Bihun Goreng",
+    "aliases": ["bihun", "mihun goreng"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 350,
+    "protein": 8,
+    "carbs": 55,
+    "fat": 11
+  },
+  {
+    "name": "Roti Tawar",
+    "aliases": ["roti", "roti putih", "bread"],
+    "category": "karbohidrat",
+    "serving_size": "2 lembar (60g)",
+    "calories": 160,
+    "protein": 5,
+    "carbs": 30,
+    "fat": 2
+  },
+  {
+    "name": "Ayam Goreng",
+    "aliases": ["ayam goreng kampung", "ayam goreng biasa", "fried chicken"],
+    "category": "protein",
+    "serving_size": "1 potong paha (100g)",
+    "calories": 260,
+    "protein": 27,
+    "carbs": 5,
+    "fat": 15
+  },
+  {
+    "name": "Ayam Goreng KFC",
+    "aliases": ["kfc", "ayam kfc", "ayam crispy"],
+    "category": "protein",
+    "serving_size": "1 potong (150g)",
+    "calories": 320,
+    "protein": 25,
+    "carbs": 12,
+    "fat": 20
+  },
+  {
+    "name": "Ayam Bakar",
+    "aliases": ["ayam bakar madu", "ayam panggang"],
+    "category": "protein",
+    "serving_size": "1 potong paha (100g)",
+    "calories": 220,
+    "protein": 28,
+    "carbs": 3,
+    "fat": 11
+  },
+  {
+    "name": "Ayam Geprek",
+    "aliases": ["geprek", "ayam geprek sambal"],
+    "category": "protein",
+    "serving_size": "1 porsi (150g)",
+    "calories": 350,
+    "protein": 28,
+    "carbs": 18,
+    "fat": 18
+  },
+  {
+    "name": "Rendang Daging",
+    "aliases": ["rendang", "rendang sapi"],
+    "category": "protein",
+    "serving_size": "1 potong (80g)",
+    "calories": 250,
+    "protein": 22,
+    "carbs": 5,
+    "fat": 16
+  },
+  {
+    "name": "Daging Sapi Goreng",
+    "aliases": ["beef goreng", "daging goreng", "empal"],
+    "category": "protein",
+    "serving_size": "1 potong (80g)",
+    "calories": 220,
+    "protein": 20,
+    "carbs": 3,
+    "fat": 14
+  },
+  {
+    "name": "Ikan Goreng",
+    "aliases": ["ikan goreng lele", "lele goreng", "ikan goreng nila", "nila goreng"],
+    "category": "protein",
+    "serving_size": "1 ekor sedang (100g)",
+    "calories": 200,
+    "protein": 22,
+    "carbs": 4,
+    "fat": 10
+  },
+  {
+    "name": "Ikan Bakar",
+    "aliases": ["ikan bakar gurame", "ikan panggang"],
+    "category": "protein",
+    "serving_size": "1 potong (100g)",
+    "calories": 160,
+    "protein": 24,
+    "carbs": 2,
+    "fat": 6
+  },
+  {
+    "name": "Udang Goreng Tepung",
+    "aliases": ["udang goreng", "udang crispy"],
+    "category": "protein",
+    "serving_size": "5 ekor (100g)",
+    "calories": 230,
+    "protein": 18,
+    "carbs": 15,
+    "fat": 11
+  },
+  {
+    "name": "Cumi Goreng Tepung",
+    "aliases": ["cumi goreng", "calamari"],
+    "category": "protein",
+    "serving_size": "1 porsi (100g)",
+    "calories": 220,
+    "protein": 16,
+    "carbs": 14,
+    "fat": 11
+  },
+  {
+    "name": "Telur Ceplok/Mata Sapi",
+    "aliases": ["telur goreng", "telur ceplok", "telur mata sapi", "sunny side up"],
+    "category": "protein",
+    "serving_size": "1 butir",
+    "calories": 110,
+    "protein": 7,
+    "carbs": 0.5,
+    "fat": 9
+  },
+  {
+    "name": "Telur Dadar",
+    "aliases": ["telor dadar", "omelette", "omelet"],
+    "category": "protein",
+    "serving_size": "1 porsi (2 butir)",
+    "calories": 190,
+    "protein": 13,
+    "carbs": 1,
+    "fat": 15
+  },
+  {
+    "name": "Telur Rebus",
+    "aliases": ["telor rebus", "boiled egg"],
+    "category": "protein",
+    "serving_size": "1 butir",
+    "calories": 75,
+    "protein": 6.5,
+    "carbs": 0.5,
+    "fat": 5
+  },
+  {
+    "name": "Tempe Goreng",
+    "aliases": ["tempe", "tempe goreng tepung"],
+    "category": "protein",
+    "serving_size": "3 potong (75g)",
+    "calories": 200,
+    "protein": 14,
+    "carbs": 10,
+    "fat": 12
+  },
+  {
+    "name": "Tahu Goreng",
+    "aliases": ["tahu", "tofu goreng"],
+    "category": "protein",
+    "serving_size": "3 potong (75g)",
+    "calories": 150,
+    "protein": 10,
+    "carbs": 5,
+    "fat": 10
+  },
+  {
+    "name": "Tahu Isi",
+    "aliases": ["tahu isi sayur"],
+    "category": "protein",
+    "serving_size": "2 buah",
+    "calories": 180,
+    "protein": 8,
+    "carbs": 15,
+    "fat": 10
+  },
+  {
+    "name": "Sate Ayam",
+    "aliases": ["sate", "sate ayam madura", "sate ayam kacang"],
+    "category": "protein",
+    "serving_size": "10 tusuk",
+    "calories": 450,
+    "protein": 30,
+    "carbs": 20,
+    "fat": 28
+  },
+  {
+    "name": "Sate Kambing",
+    "aliases": ["sate kambing muda"],
+    "category": "protein",
+    "serving_size": "10 tusuk",
+    "calories": 500,
+    "protein": 35,
+    "carbs": 5,
+    "fat": 38
+  },
+  {
+    "name": "Bakso Sapi",
+    "aliases": ["bakso", "baso", "bakso kuah"],
+    "category": "protein",
+    "serving_size": "1 mangkuk (8 butir + mie)",
+    "calories": 400,
+    "protein": 20,
+    "carbs": 45,
+    "fat": 15
+  },
+  {
+    "name": "Soto Ayam",
+    "aliases": ["soto", "soto lamongan", "soto betawi ayam"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 300,
+    "protein": 18,
+    "carbs": 30,
+    "fat": 12
+  },
+  {
+    "name": "Soto Betawi",
+    "aliases": ["soto betawi daging"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 450,
+    "protein": 22,
+    "carbs": 25,
+    "fat": 28
+  },
+  {
+    "name": "Rawon",
+    "aliases": ["rawon daging", "rawon sapi"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 380,
+    "protein": 25,
+    "carbs": 20,
+    "fat": 22
+  },
+  {
+    "name": "Sop Buntut",
+    "aliases": ["sup buntut", "oxtail soup"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 400,
+    "protein": 28,
+    "carbs": 15,
+    "fat": 25
+  },
+  {
+    "name": "Gado-gado",
+    "aliases": ["gado gado", "gadogado"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 350,
+    "protein": 15,
+    "carbs": 30,
+    "fat": 20
+  },
+  {
+    "name": "Pecel",
+    "aliases": ["pecel sayur", "nasi pecel"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 320,
+    "protein": 12,
+    "carbs": 35,
+    "fat": 15
+  },
+  {
+    "name": "Sayur Asem",
+    "aliases": ["sayur asam"],
+    "category": "sayuran",
+    "serving_size": "1 mangkuk (200ml)",
+    "calories": 80,
+    "protein": 3,
+    "carbs": 12,
+    "fat": 2
+  },
+  {
+    "name": "Sayur Lodeh",
+    "aliases": ["lodeh"],
+    "category": "sayuran",
+    "serving_size": "1 mangkuk (200ml)",
+    "calories": 120,
+    "protein": 4,
+    "carbs": 10,
+    "fat": 8
+  },
+  {
+    "name": "Sayur Bayam",
+    "aliases": ["bayam", "sayur bening bayam"],
+    "category": "sayuran",
+    "serving_size": "1 mangkuk (200ml)",
+    "calories": 50,
+    "protein": 3,
+    "carbs": 6,
+    "fat": 1
+  },
+  {
+    "name": "Cap Cay",
+    "aliases": ["capcay goreng", "capcay kuah"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 180,
+    "protein": 10,
+    "carbs": 15,
+    "fat": 10
+  },
+  {
+    "name": "Kangkung Goreng",
+    "aliases": ["tumis kangkung", "kangkung belacan", "cah kangkung"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 90,
+    "protein": 3,
+    "carbs": 5,
+    "fat": 7
+  },
+  {
+    "name": "Tumis Buncis",
+    "aliases": ["buncis goreng", "cah buncis"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 80,
+    "protein": 3,
+    "carbs": 8,
+    "fat": 4
+  },
+  {
+    "name": "Lalapan",
+    "aliases": ["lalap", "lalapan mentah"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 30,
+    "protein": 2,
+    "carbs": 5,
+    "fat": 0.5
+  },
+  {
+    "name": "Urap Sayur",
+    "aliases": ["urap", "urap kelapa"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 150,
+    "protein": 5,
+    "carbs": 12,
+    "fat": 10
+  },
+  {
+    "name": "Siomay Bandung",
+    "aliases": ["siomay", "somay"],
+    "category": "snack",
+    "serving_size": "5 buah + bumbu kacang",
+    "calories": 350,
+    "protein": 15,
+    "carbs": 35,
+    "fat": 16
+  },
+  {
+    "name": "Batagor",
+    "aliases": ["batagor bandung"],
+    "category": "snack",
+    "serving_size": "1 porsi (5 buah)",
+    "calories": 380,
+    "protein": 14,
+    "carbs": 38,
+    "fat": 18
+  },
+  {
+    "name": "Pempek",
+    "aliases": ["empek-empek", "mpek mpek", "pempek palembang"],
+    "category": "snack",
+    "serving_size": "3 buah + cuko",
+    "calories": 400,
+    "protein": 12,
+    "carbs": 55,
+    "fat": 14
+  },
+  {
+    "name": "Gorengan (Bakwan)",
+    "aliases": ["bakwan", "gorengan", "weci"],
+    "category": "snack",
+    "serving_size": "3 buah",
+    "calories": 270,
+    "protein": 5,
+    "carbs": 25,
+    "fat": 16
+  },
+  {
+    "name": "Risol",
+    "aliases": ["risol mayo", "risoles"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 240,
+    "protein": 8,
+    "carbs": 22,
+    "fat": 13
+  },
+  {
+    "name": "Lumpia",
+    "aliases": ["lumpia goreng", "lumpia semarang"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 200,
+    "protein": 6,
+    "carbs": 20,
+    "fat": 10
+  },
+  {
+    "name": "Martabak Telur",
+    "aliases": ["martabak asin", "martabak telor"],
+    "category": "snack",
+    "serving_size": "1 potong (1/4 loyang)",
+    "calories": 350,
+    "protein": 15,
+    "carbs": 25,
+    "fat": 22
+  },
+  {
+    "name": "Martabak Manis",
+    "aliases": ["martabak bangka", "terang bulan"],
+    "category": "snack",
+    "serving_size": "1 potong (1/4 loyang)",
+    "calories": 450,
+    "protein": 8,
+    "carbs": 55,
+    "fat": 22
+  },
+  {
+    "name": "Pisang Goreng",
+    "aliases": ["pisgor", "pisang goreng kipas"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 200,
+    "protein": 2,
+    "carbs": 30,
+    "fat": 8
+  },
+  {
+    "name": "Kerupuk",
+    "aliases": ["krupuk", "kerupuk udang", "kerupuk putih"],
+    "category": "snack",
+    "serving_size": "5 keping",
+    "calories": 100,
+    "protein": 1,
+    "carbs": 12,
+    "fat": 5
+  },
+  {
+    "name": "Tahu Bulat",
+    "aliases": ["tahu bulat goreng"],
+    "category": "snack",
+    "serving_size": "5 buah",
+    "calories": 250,
+    "protein": 12,
+    "carbs": 15,
+    "fat": 15
+  },
+  {
+    "name": "Cireng",
+    "aliases": ["cireng isi", "cilok"],
+    "category": "snack",
+    "serving_size": "5 buah",
+    "calories": 280,
+    "protein": 3,
+    "carbs": 40,
+    "fat": 12
+  },
+  {
+    "name": "Nasi Lemak",
+    "aliases": ["nasi lemak melayu"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi",
+    "calories": 400,
+    "protein": 12,
+    "carbs": 50,
+    "fat": 18
+  },
+  {
+    "name": "Nasi Liwet",
+    "aliases": ["nasi liwet solo"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi",
+    "calories": 380,
+    "protein": 10,
+    "carbs": 48,
+    "fat": 16
+  },
+  {
+    "name": "Gudeg",
+    "aliases": ["gudeg jogja"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 300,
+    "protein": 8,
+    "carbs": 35,
+    "fat": 15
+  },
+  {
+    "name": "Tongseng Kambing",
+    "aliases": ["tongseng"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 400,
+    "protein": 25,
+    "carbs": 15,
+    "fat": 28
+  },
+  {
+    "name": "Gulai Ayam",
+    "aliases": ["gulai", "kari ayam", "kare ayam"],
+    "category": "protein",
+    "serving_size": "1 potong + kuah",
+    "calories": 280,
+    "protein": 22,
+    "carbs": 8,
+    "fat": 18
+  },
+  {
+    "name": "Opor Ayam",
+    "aliases": ["opor"],
+    "category": "protein",
+    "serving_size": "1 potong + kuah",
+    "calories": 300,
+    "protein": 24,
+    "carbs": 6,
+    "fat": 20
+  },
+  {
+    "name": "Semur Daging",
+    "aliases": ["semur", "semur jengkol"],
+    "category": "protein",
+    "serving_size": "1 porsi (100g)",
+    "calories": 240,
+    "protein": 20,
+    "carbs": 12,
+    "fat": 13
+  },
+  {
+    "name": "Ikan Tongkol Balado",
+    "aliases": ["tongkol balado", "ikan balado"],
+    "category": "protein",
+    "serving_size": "1 potong",
+    "calories": 180,
+    "protein": 20,
+    "carbs": 5,
+    "fat": 9
+  },
+  {
+    "name": "Perkedel Kentang",
+    "aliases": ["perkedel", "bergedel"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 200,
+    "protein": 5,
+    "carbs": 22,
+    "fat": 10
+  },
+  {
+    "name": "Kentang Goreng",
+    "aliases": ["french fries", "fries"],
+    "category": "snack",
+    "serving_size": "1 porsi sedang (100g)",
+    "calories": 320,
+    "protein": 4,
+    "carbs": 40,
+    "fat": 15
+  },
+  {
+    "name": "Burger",
+    "aliases": ["hamburger", "cheeseburger"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 450,
+    "protein": 22,
+    "carbs": 40,
+    "fat": 22
+  },
+  {
+    "name": "Pizza",
+    "aliases": ["pizza hut", "pizza slice"],
+    "category": "snack",
+    "serving_size": "1 slice",
+    "calories": 280,
+    "protein": 12,
+    "carbs": 30,
+    "fat": 12
+  },
+  {
+    "name": "Teh Manis",
+    "aliases": ["es teh manis", "teh tawar manis", "es teh"],
+    "category": "minuman",
+    "serving_size": "1 gelas (250ml)",
+    "calories": 80,
+    "protein": 0,
+    "carbs": 20,
+    "fat": 0
+  },
+  {
+    "name": "Teh Tawar",
+    "aliases": ["teh pahit", "teh tanpa gula"],
+    "category": "minuman",
+    "serving_size": "1 gelas (250ml)",
+    "calories": 2,
+    "protein": 0,
+    "carbs": 0.5,
+    "fat": 0
+  },
+  {
+    "name": "Kopi Hitam Tanpa Gula",
+    "aliases": ["kopi pahit", "black coffee", "americano"],
+    "category": "minuman",
+    "serving_size": "1 gelas (200ml)",
+    "calories": 5,
+    "protein": 0.3,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "name": "Kopi Susu",
+    "aliases": ["kopi susu gula aren", "es kopi susu", "kopisus"],
+    "category": "minuman",
+    "serving_size": "1 gelas (300ml)",
+    "calories": 150,
+    "protein": 4,
+    "carbs": 22,
+    "fat": 5
+  },
+  {
+    "name": "Susu Full Cream",
+    "aliases": ["susu segar", "susu putih", "susu UHT"],
+    "category": "minuman",
+    "serving_size": "1 gelas (250ml)",
+    "calories": 150,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 8
+  },
+  {
+    "name": "Jus Jeruk",
+    "aliases": ["orange juice", "jus jeruk segar"],
+    "category": "minuman",
+    "serving_size": "1 gelas (250ml)",
+    "calories": 110,
+    "protein": 1.5,
+    "carbs": 26,
+    "fat": 0.3
+  },
+  {
+    "name": "Jus Alpukat",
+    "aliases": ["avocado juice", "jus alpokat"],
+    "category": "minuman",
+    "serving_size": "1 gelas (300ml)",
+    "calories": 250,
+    "protein": 4,
+    "carbs": 20,
+    "fat": 18
+  },
+  {
+    "name": "Es Campur",
+    "aliases": ["es teler", "es buah"],
+    "category": "minuman",
+    "serving_size": "1 gelas",
+    "calories": 200,
+    "protein": 3,
+    "carbs": 40,
+    "fat": 5
+  },
+  {
+    "name": "Es Cendol/Dawet",
+    "aliases": ["cendol", "dawet", "es dawet"],
+    "category": "minuman",
+    "serving_size": "1 gelas",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 35,
+    "fat": 5
+  },
+  {
+    "name": "Air Mineral",
+    "aliases": ["air putih", "aqua", "air"],
+    "category": "minuman",
+    "serving_size": "1 gelas (250ml)",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  },
+  {
+    "name": "Coca-Cola",
+    "aliases": ["coca cola", "cola", "coke"],
+    "category": "minuman",
+    "serving_size": "1 kaleng (330ml)",
+    "calories": 140,
+    "protein": 0,
+    "carbs": 35,
+    "fat": 0
+  },
+  {
+    "name": "Boba Milk Tea",
+    "aliases": ["boba", "bubble tea", "milk tea boba"],
+    "category": "minuman",
+    "serving_size": "1 cup regular",
+    "calories": 350,
+    "protein": 3,
+    "carbs": 65,
+    "fat": 8
+  },
+  {
+    "name": "Pisang",
+    "aliases": ["banana", "pisang ambon"],
+    "category": "buah",
+    "serving_size": "1 buah sedang (120g)",
+    "calories": 105,
+    "protein": 1.3,
+    "carbs": 27,
+    "fat": 0.4
+  },
+  {
+    "name": "Apel",
+    "aliases": ["apple", "apel malang", "apel fuji"],
+    "category": "buah",
+    "serving_size": "1 buah sedang (150g)",
+    "calories": 80,
+    "protein": 0.4,
+    "carbs": 21,
+    "fat": 0.2
+  },
+  {
+    "name": "Jeruk",
+    "aliases": ["orange", "jeruk manis"],
+    "category": "buah",
+    "serving_size": "1 buah sedang (130g)",
+    "calories": 60,
+    "protein": 1.2,
+    "carbs": 15,
+    "fat": 0.2
+  },
+  {
+    "name": "Mangga",
+    "aliases": ["mango", "mangga harum manis"],
+    "category": "buah",
+    "serving_size": "1 buah (200g)",
+    "calories": 130,
+    "protein": 1.5,
+    "carbs": 33,
+    "fat": 0.5
+  },
+  {
+    "name": "Semangka",
+    "aliases": ["watermelon"],
+    "category": "buah",
+    "serving_size": "1 potong besar (300g)",
+    "calories": 90,
+    "protein": 1.8,
+    "carbs": 22,
+    "fat": 0.5
+  },
+  {
+    "name": "Pepaya",
+    "aliases": ["papaya"],
+    "category": "buah",
+    "serving_size": "1 potong (150g)",
+    "calories": 60,
+    "protein": 0.8,
+    "carbs": 15,
+    "fat": 0.3
+  },
+  {
+    "name": "Alpukat",
+    "aliases": ["avocado", "alpokat"],
+    "category": "buah",
+    "serving_size": "1/2 buah (100g)",
+    "calories": 160,
+    "protein": 2,
+    "carbs": 9,
+    "fat": 15
+  },
+  {
+    "name": "Nasi + Telur Ceplok",
+    "aliases": ["nasi telor", "nasi telur"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 305,
+    "protein": 10.6,
+    "carbs": 43.7,
+    "fat": 9.3
+  },
+  {
+    "name": "Nasi + Ayam Goreng + Lalapan",
+    "aliases": ["nasi ayam lalapan", "ayam lalapan"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 485,
+    "protein": 32.6,
+    "carbs": 48.2,
+    "fat": 15.8
+  },
+  {
+    "name": "Nasi + Rendang",
+    "aliases": ["nasi rendang"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 445,
+    "protein": 25.6,
+    "carbs": 48.2,
+    "fat": 16.3
+  },
+  {
+    "name": "Nasi + Ikan Goreng",
+    "aliases": ["nasi ikan", "nasi lele"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 395,
+    "protein": 25.6,
+    "carbs": 47.2,
+    "fat": 10.3
+  },
+  {
+    "name": "Ketoprak",
+    "aliases": ["ketoprak jakarta"],
+    "category": "snack",
+    "serving_size": "1 porsi",
+    "calories": 380,
+    "protein": 14,
+    "carbs": 45,
+    "fat": 16
+  },
+  {
+    "name": "Nasi Kebuli",
+    "aliases": ["kebuli", "nasi kebuli arab"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi",
+    "calories": 450,
+    "protein": 18,
+    "carbs": 50,
+    "fat": 20
+  },
+  {
+    "name": "Sosis Goreng",
+    "aliases": ["sosis bakar", "hotdog"],
+    "category": "protein",
+    "serving_size": "2 buah",
+    "calories": 200,
+    "protein": 10,
+    "carbs": 5,
+    "fat": 16
+  },
+  {
+    "name": "Nugget Ayam",
+    "aliases": ["nugget", "chicken nugget"],
+    "category": "protein",
+    "serving_size": "5 buah (100g)",
+    "calories": 250,
+    "protein": 14,
+    "carbs": 16,
+    "fat": 15
+  },
+  {
+    "name": "Bakmi Goreng",
+    "aliases": ["mie goreng bakmi", "bakmi jawa"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 400,
+    "protein": 14,
+    "carbs": 52,
+    "fat": 15
+  },
+  {
+    "name": "Sup Sayur",
+    "aliases": ["sup", "sop sayuran"],
+    "category": "sayuran",
+    "serving_size": "1 mangkuk",
+    "calories": 80,
+    "protein": 3,
+    "carbs": 12,
+    "fat": 2
+  },
+  {
+    "name": "Sambal Terasi",
+    "aliases": ["sambal", "sambal ulek"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan",
+    "calories": 15,
+    "protein": 0.5,
+    "carbs": 2,
+    "fat": 0.5
+  },
+  {
+    "name": "Oatmeal",
+    "aliases": ["oat", "havermut", "overnight oats"],
+    "category": "karbohidrat",
+    "serving_size": "1 mangkuk (40g + air)",
+    "calories": 150,
+    "protein": 5,
+    "carbs": 27,
+    "fat": 3
+  },
+  {
+    "name": "Yogurt",
+    "aliases": ["yogurt plain", "yakult"],
+    "category": "minuman",
+    "serving_size": "1 cup (150g)",
+    "calories": 90,
+    "protein": 5,
+    "carbs": 12,
+    "fat": 2.5
+  },
+  {
+    "name": "Dimsum",
+    "aliases": ["hakau", "siumai", "dim sum"],
+    "category": "snack",
+    "serving_size": "5 buah",
+    "calories": 250,
+    "protein": 12,
+    "carbs": 25,
+    "fat": 11
+  },
+  {
+    "name": "Ramen",
+    "aliases": ["ramen jepang"],
+    "category": "karbohidrat",
+    "serving_size": "1 mangkuk",
+    "calories": 500,
+    "protein": 20,
+    "carbs": 60,
+    "fat": 20
+  },
+  {
+    "name": "Klepon",
+    "aliases": ["kelepon"],
+    "category": "snack",
+    "serving_size": "5 buah",
+    "calories": 200,
+    "protein": 2,
+    "carbs": 40,
+    "fat": 4
+  },
+  {
+    "name": "Onde-onde",
+    "aliases": ["onde onde"],
+    "category": "snack",
+    "serving_size": "3 buah",
+    "calories": 270,
+    "protein": 4,
+    "carbs": 40,
+    "fat": 10
+  },
+  {
+    "name": "Kolak Pisang",
+    "aliases": ["kolak", "kolak ubi"],
+    "category": "snack",
+    "serving_size": "1 mangkuk",
+    "calories": 250,
+    "protein": 3,
+    "carbs": 45,
+    "fat": 8
+  },
+
+  {
+    "name": "Nasi Jagung",
+    "aliases": ["nasi jagung madura", "sego jagung"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring (200g)",
+    "calories": 180,
+    "protein": 4,
+    "carbs": 38,
+    "fat": 1.5
+  },
+  {
+    "name": "Nasi Bakar",
+    "aliases": ["nasi bakar ayam", "nasi bakar ikan"],
+    "category": "karbohidrat",
+    "serving_size": "1 bungkus",
+    "calories": 350,
+    "protein": 14,
+    "carbs": 48,
+    "fat": 12
+  },
+  {
+    "name": "Nasi Tim",
+    "aliases": ["nasi tim ayam"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi",
+    "calories": 320,
+    "protein": 12,
+    "carbs": 45,
+    "fat": 10
+  },
+  {
+    "name": "Nasi Pecel Lele",
+    "aliases": ["pecel lele", "nasi lele lalapan"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 480,
+    "protein": 28,
+    "carbs": 48,
+    "fat": 18
+  },
+  {
+    "name": "Nasi Campur Bali",
+    "aliases": ["nasi campur", "nasi bali"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 550,
+    "protein": 25,
+    "carbs": 55,
+    "fat": 24
+  },
+  {
+    "name": "Lontong Sayur",
+    "aliases": ["lontong kuah santan", "lontongsayur"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi",
+    "calories": 350,
+    "protein": 10,
+    "carbs": 45,
+    "fat": 14
+  },
+  {
+    "name": "Lontong Balap",
+    "aliases": ["lontong balap surabaya"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi",
+    "calories": 330,
+    "protein": 12,
+    "carbs": 42,
+    "fat": 13
+  },
+  {
+    "name": "Ketupat Sayur",
+    "aliases": ["ketupat sayur padang"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi",
+    "calories": 370,
+    "protein": 12,
+    "carbs": 48,
+    "fat": 15
+  },
+  {
+    "name": "Mie Pangsit",
+    "aliases": ["pangsit mie", "mie wonton"],
+    "category": "karbohidrat",
+    "serving_size": "1 mangkuk",
+    "calories": 380,
+    "protein": 14,
+    "carbs": 48,
+    "fat": 14
+  },
+  {
+    "name": "Mie Aceh",
+    "aliases": ["mie aceh goreng", "mie aceh kuah"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 450,
+    "protein": 18,
+    "carbs": 52,
+    "fat": 18
+  },
+  {
+    "name": "Mie Tek-tek",
+    "aliases": ["mie tektek", "mie gerobak"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 390,
+    "protein": 12,
+    "carbs": 50,
+    "fat": 15
+  },
+  {
+    "name": "Mie Celor",
+    "aliases": ["mie celor palembang"],
+    "category": "karbohidrat",
+    "serving_size": "1 mangkuk",
+    "calories": 420,
+    "protein": 16,
+    "carbs": 48,
+    "fat": 18
+  },
+  {
+    "name": "Spaghetti",
+    "aliases": ["pasta", "spaghetti bolognese"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 420,
+    "protein": 16,
+    "carbs": 55,
+    "fat": 14
+  },
+  {
+    "name": "Nasi Goreng Seafood",
+    "aliases": ["nasgor seafood"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 420,
+    "protein": 16,
+    "carbs": 52,
+    "fat": 16
+  },
+  {
+    "name": "Nasi Goreng Telur",
+    "aliases": ["nasgor telor", "nasi goreng telor"],
+    "category": "combo",
+    "serving_size": "1 piring",
+    "calories": 440,
+    "protein": 15,
+    "carbs": 52,
+    "fat": 18
+  },
+  {
+    "name": "Singkong Goreng",
+    "aliases": ["singkong", "ubi goreng", "cassava goreng"],
+    "category": "karbohidrat",
+    "serving_size": "3 potong (150g)",
+    "calories": 250,
+    "protein": 2,
+    "carbs": 42,
+    "fat": 8
+  },
+  {
+    "name": "Ubi Jalar Rebus",
+    "aliases": ["ubi rebus", "sweet potato", "ubi ungu"],
+    "category": "karbohidrat",
+    "serving_size": "1 buah sedang (150g)",
+    "calories": 130,
+    "protein": 2,
+    "carbs": 30,
+    "fat": 0.2
+  },
+  {
+    "name": "Jagung Rebus",
+    "aliases": ["jagung", "corn", "jagung manis"],
+    "category": "karbohidrat",
+    "serving_size": "1 tongkol",
+    "calories": 130,
+    "protein": 4.5,
+    "carbs": 27,
+    "fat": 1.5
+  },
+  {
+    "name": "Roti Bakar",
+    "aliases": ["roti bakar coklat", "roti bakar keju"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi (2 lembar)",
+    "calories": 280,
+    "protein": 6,
+    "carbs": 38,
+    "fat": 12
+  },
+
+  {
+    "name": "Ayam Penyet",
+    "aliases": ["ayam penyet sambal", "penyet ayam"],
+    "category": "protein",
+    "serving_size": "1 potong (150g)",
+    "calories": 340,
+    "protein": 28,
+    "carbs": 12,
+    "fat": 20
+  },
+  {
+    "name": "Ayam Pop",
+    "aliases": ["ayam pop padang"],
+    "category": "protein",
+    "serving_size": "1 potong (100g)",
+    "calories": 200,
+    "protein": 26,
+    "carbs": 2,
+    "fat": 10
+  },
+  {
+    "name": "Ayam Rica-rica",
+    "aliases": ["ayam rica", "rica rica"],
+    "category": "protein",
+    "serving_size": "1 potong (100g)",
+    "calories": 240,
+    "protein": 26,
+    "carbs": 5,
+    "fat": 13
+  },
+  {
+    "name": "Ayam Goreng McD",
+    "aliases": ["mcd", "mcdonalds", "ayam mcd"],
+    "category": "protein",
+    "serving_size": "1 potong (150g)",
+    "calories": 340,
+    "protein": 24,
+    "carbs": 14,
+    "fat": 22
+  },
+  {
+    "name": "Bebek Goreng",
+    "aliases": ["bebek goreng sambal", "bebek goreng kremes"],
+    "category": "protein",
+    "serving_size": "1 potong (120g)",
+    "calories": 300,
+    "protein": 22,
+    "carbs": 5,
+    "fat": 22
+  },
+  {
+    "name": "Bebek Bakar",
+    "aliases": ["bebek panggang"],
+    "category": "protein",
+    "serving_size": "1 potong (120g)",
+    "calories": 270,
+    "protein": 24,
+    "carbs": 4,
+    "fat": 18
+  },
+  {
+    "name": "Iga Bakar",
+    "aliases": ["iga sapi bakar", "ribs"],
+    "category": "protein",
+    "serving_size": "1 porsi (200g)",
+    "calories": 480,
+    "protein": 35,
+    "carbs": 10,
+    "fat": 34
+  },
+  {
+    "name": "Pepes Ikan",
+    "aliases": ["pepes ikan mas", "pepes ikan patin"],
+    "category": "protein",
+    "serving_size": "1 bungkus",
+    "calories": 180,
+    "protein": 22,
+    "carbs": 4,
+    "fat": 8
+  },
+  {
+    "name": "Pepes Tahu",
+    "aliases": ["pepes tahu jamur"],
+    "category": "protein",
+    "serving_size": "1 bungkus",
+    "calories": 120,
+    "protein": 8,
+    "carbs": 6,
+    "fat": 7
+  },
+  {
+    "name": "Dendeng Balado",
+    "aliases": ["dendeng", "dendeng batokok"],
+    "category": "protein",
+    "serving_size": "1 porsi (60g)",
+    "calories": 180,
+    "protein": 18,
+    "carbs": 8,
+    "fat": 9
+  },
+  {
+    "name": "Abon Sapi",
+    "aliases": ["abon", "abon daging"],
+    "category": "protein",
+    "serving_size": "2 sendok makan (20g)",
+    "calories": 80,
+    "protein": 10,
+    "carbs": 4,
+    "fat": 3
+  },
+  {
+    "name": "Ikan Patin Goreng",
+    "aliases": ["patin goreng", "ikan patin"],
+    "category": "protein",
+    "serving_size": "1 potong (120g)",
+    "calories": 220,
+    "protein": 20,
+    "carbs": 5,
+    "fat": 13
+  },
+  {
+    "name": "Ikan Gurame Goreng",
+    "aliases": ["gurame goreng", "gurame asam manis"],
+    "category": "protein",
+    "serving_size": "1 potong (150g)",
+    "calories": 240,
+    "protein": 28,
+    "carbs": 5,
+    "fat": 12
+  },
+  {
+    "name": "Ikan Kakap Goreng",
+    "aliases": ["kakap goreng", "kakap asam manis"],
+    "category": "protein",
+    "serving_size": "1 potong (120g)",
+    "calories": 200,
+    "protein": 24,
+    "carbs": 4,
+    "fat": 10
+  },
+  {
+    "name": "Ikan Dori Goreng Tepung",
+    "aliases": ["dori goreng", "fish and chips", "dori crispy"],
+    "category": "protein",
+    "serving_size": "1 fillet (150g)",
+    "calories": 280,
+    "protein": 20,
+    "carbs": 18,
+    "fat": 14
+  },
+  {
+    "name": "Udang Bakar",
+    "aliases": ["udang bakar madu", "grilled shrimp"],
+    "category": "protein",
+    "serving_size": "5 ekor (100g)",
+    "calories": 150,
+    "protein": 22,
+    "carbs": 3,
+    "fat": 5
+  },
+  {
+    "name": "Kepiting Saus Padang",
+    "aliases": ["kepiting", "crab", "rajungan"],
+    "category": "protein",
+    "serving_size": "1 ekor sedang",
+    "calories": 350,
+    "protein": 28,
+    "carbs": 12,
+    "fat": 20
+  },
+  {
+    "name": "Kerang Rebus",
+    "aliases": ["kerang", "kerang hijau", "kerang dara"],
+    "category": "protein",
+    "serving_size": "1 porsi (150g)",
+    "calories": 120,
+    "protein": 18,
+    "carbs": 5,
+    "fat": 3
+  },
+  {
+    "name": "Cumi Saus Tiram",
+    "aliases": ["cumi hitam", "cumi bakar"],
+    "category": "protein",
+    "serving_size": "1 porsi (100g)",
+    "calories": 160,
+    "protein": 18,
+    "carbs": 6,
+    "fat": 7
+  },
+  {
+    "name": "Daging Sapi Lada Hitam",
+    "aliases": ["beef black pepper", "sapi lada hitam"],
+    "category": "protein",
+    "serving_size": "1 porsi (100g)",
+    "calories": 250,
+    "protein": 22,
+    "carbs": 8,
+    "fat": 14
+  },
+  {
+    "name": "Kambing Guling",
+    "aliases": ["guling kambing", "kambing bakar"],
+    "category": "protein",
+    "serving_size": "1 porsi (100g)",
+    "calories": 300,
+    "protein": 25,
+    "carbs": 2,
+    "fat": 22
+  },
+  {
+    "name": "Tempe Bacem",
+    "aliases": ["bacem", "tempe bacem jawa"],
+    "category": "protein",
+    "serving_size": "3 potong (75g)",
+    "calories": 180,
+    "protein": 12,
+    "carbs": 14,
+    "fat": 9
+  },
+  {
+    "name": "Tempe Mendoan",
+    "aliases": ["mendoan", "tempe mendoan purwokerto"],
+    "category": "protein",
+    "serving_size": "3 potong",
+    "calories": 220,
+    "protein": 12,
+    "carbs": 16,
+    "fat": 13
+  },
+  {
+    "name": "Tempe Orek",
+    "aliases": ["orek tempe", "tempe kering"],
+    "category": "protein",
+    "serving_size": "1 porsi (50g)",
+    "calories": 160,
+    "protein": 10,
+    "carbs": 12,
+    "fat": 8
+  },
+  {
+    "name": "Tahu Bacem",
+    "aliases": ["bacem tahu", "tahu bacem jawa"],
+    "category": "protein",
+    "serving_size": "3 potong (75g)",
+    "calories": 140,
+    "protein": 8,
+    "carbs": 10,
+    "fat": 7
+  },
+  {
+    "name": "Telur Balado",
+    "aliases": ["telor balado", "telur sambal"],
+    "category": "protein",
+    "serving_size": "2 butir",
+    "calories": 200,
+    "protein": 13,
+    "carbs": 5,
+    "fat": 14
+  },
+  {
+    "name": "Telur Puyuh",
+    "aliases": ["telor puyuh", "telur puyuh goreng"],
+    "category": "protein",
+    "serving_size": "5 butir (50g)",
+    "calories": 80,
+    "protein": 6,
+    "carbs": 0.5,
+    "fat": 6
+  },
+  {
+    "name": "Sarden Kaleng",
+    "aliases": ["sarden", "ikan sarden"],
+    "category": "protein",
+    "serving_size": "1/2 kaleng (100g)",
+    "calories": 180,
+    "protein": 18,
+    "carbs": 5,
+    "fat": 10
+  },
+  {
+    "name": "Kornet Sapi",
+    "aliases": ["kornet", "corned beef"],
+    "category": "protein",
+    "serving_size": "1/2 kaleng (85g)",
+    "calories": 170,
+    "protein": 14,
+    "carbs": 3,
+    "fat": 12
+  },
+  {
+    "name": "Dada Ayam Rebus",
+    "aliases": ["chicken breast", "dada ayam diet", "ayam rebus"],
+    "category": "protein",
+    "serving_size": "1 potong (100g)",
+    "calories": 165,
+    "protein": 31,
+    "carbs": 0,
+    "fat": 3.6
+  },
+  {
+    "name": "Bakso Bakar",
+    "aliases": ["baso bakar", "bakso panggang"],
+    "category": "protein",
+    "serving_size": "5 butir",
+    "calories": 220,
+    "protein": 14,
+    "carbs": 12,
+    "fat": 13
+  },
+  {
+    "name": "Soto Madura",
+    "aliases": ["soto daging madura"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 350,
+    "protein": 20,
+    "carbs": 28,
+    "fat": 18
+  },
+  {
+    "name": "Soto Banjar",
+    "aliases": ["soto banjar kalimantan"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 320,
+    "protein": 18,
+    "carbs": 30,
+    "fat": 14
+  },
+  {
+    "name": "Konro",
+    "aliases": ["sop konro", "konro bakar", "konro makassar"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 450,
+    "protein": 30,
+    "carbs": 15,
+    "fat": 30
+  },
+  {
+    "name": "Coto Makassar",
+    "aliases": ["coto", "coto mangkasara"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 380,
+    "protein": 25,
+    "carbs": 15,
+    "fat": 24
+  },
+  {
+    "name": "Pallubasa",
+    "aliases": ["pallu basa"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 400,
+    "protein": 28,
+    "carbs": 12,
+    "fat": 26
+  },
+
+  {
+    "name": "Tumis Tauge",
+    "aliases": ["tauge goreng", "cah tauge", "toge"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 70,
+    "protein": 3,
+    "carbs": 6,
+    "fat": 4
+  },
+  {
+    "name": "Terong Balado",
+    "aliases": ["terong goreng balado", "terong sambal"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 120,
+    "protein": 2,
+    "carbs": 10,
+    "fat": 8
+  },
+  {
+    "name": "Sayur Nangka (Gudeg Muda)",
+    "aliases": ["sayur nangka", "gulai nangka"],
+    "category": "sayuran",
+    "serving_size": "1 mangkuk",
+    "calories": 150,
+    "protein": 4,
+    "carbs": 20,
+    "fat": 7
+  },
+  {
+    "name": "Tumis Kangkung Belacan",
+    "aliases": ["kangkung terasi", "cah kangkung terasi"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 100,
+    "protein": 3,
+    "carbs": 5,
+    "fat": 8
+  },
+  {
+    "name": "Capcay Kuah",
+    "aliases": ["capcay kuah sapi"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 150,
+    "protein": 10,
+    "carbs": 12,
+    "fat": 8
+  },
+  {
+    "name": "Tumis Pare",
+    "aliases": ["pare goreng", "pare telur"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 90,
+    "protein": 4,
+    "carbs": 6,
+    "fat": 5
+  },
+  {
+    "name": "Asinan Sayur",
+    "aliases": ["asinan betawi", "asinan bogor"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 130,
+    "protein": 3,
+    "carbs": 22,
+    "fat": 4
+  },
+  {
+    "name": "Karedok",
+    "aliases": ["karedok sunda"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 200,
+    "protein": 8,
+    "carbs": 18,
+    "fat": 12
+  },
+  {
+    "name": "Plecing Kangkung",
+    "aliases": ["plecing", "kangkung plecing"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 80,
+    "protein": 3,
+    "carbs": 6,
+    "fat": 5
+  },
+  {
+    "name": "Sayur Sop",
+    "aliases": ["sop sayur bening", "sayur bening"],
+    "category": "sayuran",
+    "serving_size": "1 mangkuk",
+    "calories": 60,
+    "protein": 3,
+    "carbs": 8,
+    "fat": 2
+  },
+  {
+    "name": "Labu Siam Tumis",
+    "aliases": ["tumis labu siam", "sayur labu"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 60,
+    "protein": 2,
+    "carbs": 8,
+    "fat": 3
+  },
+  {
+    "name": "Salad Sayur",
+    "aliases": ["salad", "salad buah sayur"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 120,
+    "protein": 3,
+    "carbs": 10,
+    "fat": 8
+  },
+
+  {
+    "name": "Pastel",
+    "aliases": ["pastel goreng", "jalangkote"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 260,
+    "protein": 7,
+    "carbs": 24,
+    "fat": 14
+  },
+  {
+    "name": "Tahu Gejrot",
+    "aliases": ["tahu gejrot cirebon"],
+    "category": "snack",
+    "serving_size": "1 porsi (5 buah)",
+    "calories": 200,
+    "protein": 10,
+    "carbs": 18,
+    "fat": 10
+  },
+  {
+    "name": "Serabi",
+    "aliases": ["surabi", "serabi solo", "serabi bandung"],
+    "category": "snack",
+    "serving_size": "3 buah",
+    "calories": 250,
+    "protein": 4,
+    "carbs": 38,
+    "fat": 9
+  },
+  {
+    "name": "Kue Lapis",
+    "aliases": ["lapis legit", "kue lapis pepe"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 180,
+    "protein": 3,
+    "carbs": 25,
+    "fat": 8
+  },
+  {
+    "name": "Kue Putu",
+    "aliases": ["putu bambu", "kue putu mayang"],
+    "category": "snack",
+    "serving_size": "3 buah",
+    "calories": 200,
+    "protein": 3,
+    "carbs": 35,
+    "fat": 6
+  },
+  {
+    "name": "Kue Cucur",
+    "aliases": ["cucur", "jajanan pasar"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 220,
+    "protein": 2,
+    "carbs": 40,
+    "fat": 6
+  },
+  {
+    "name": "Kue Lumpur",
+    "aliases": ["lumpur kentang"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 240,
+    "protein": 4,
+    "carbs": 30,
+    "fat": 12
+  },
+  {
+    "name": "Kue Bolu",
+    "aliases": ["bolu", "bolu kukus", "bolu panggang"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 180,
+    "protein": 3,
+    "carbs": 28,
+    "fat": 7
+  },
+  {
+    "name": "Donat",
+    "aliases": ["donut", "donat gula", "donat coklat"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 250,
+    "protein": 4,
+    "carbs": 30,
+    "fat": 13
+  },
+  {
+    "name": "Croissant",
+    "aliases": ["croissant butter"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 230,
+    "protein": 5,
+    "carbs": 26,
+    "fat": 12
+  },
+  {
+    "name": "Roti Canai",
+    "aliases": ["roti maryam", "roti cane"],
+    "category": "snack",
+    "serving_size": "1 lembar",
+    "calories": 220,
+    "protein": 5,
+    "carbs": 30,
+    "fat": 9
+  },
+  {
+    "name": "Pangsit Goreng",
+    "aliases": ["pangsit", "wonton goreng"],
+    "category": "snack",
+    "serving_size": "5 buah",
+    "calories": 200,
+    "protein": 6,
+    "carbs": 22,
+    "fat": 10
+  },
+  {
+    "name": "Sosis Solo",
+    "aliases": ["sosis solo goreng"],
+    "category": "snack",
+    "serving_size": "3 buah",
+    "calories": 210,
+    "protein": 8,
+    "carbs": 18,
+    "fat": 12
+  },
+  {
+    "name": "Tahu Sumedang",
+    "aliases": ["tahu sumedang goreng"],
+    "category": "snack",
+    "serving_size": "5 buah",
+    "calories": 230,
+    "protein": 12,
+    "carbs": 14,
+    "fat": 14
+  },
+  {
+    "name": "Getuk",
+    "aliases": ["getuk lindri", "getuk goreng"],
+    "category": "snack",
+    "serving_size": "3 buah",
+    "calories": 200,
+    "protein": 1,
+    "carbs": 42,
+    "fat": 3
+  },
+  {
+    "name": "Wingko Babat",
+    "aliases": ["wingko"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 220,
+    "protein": 3,
+    "carbs": 35,
+    "fat": 8
+  },
+  {
+    "name": "Lemper",
+    "aliases": ["lemper ayam"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 220,
+    "protein": 8,
+    "carbs": 35,
+    "fat": 6
+  },
+  {
+    "name": "Nagasari",
+    "aliases": ["kue nagasari"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 180,
+    "protein": 3,
+    "carbs": 32,
+    "fat": 5
+  },
+  {
+    "name": "Dadar Gulung",
+    "aliases": ["dadar gulung kelapa"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 200,
+    "protein": 3,
+    "carbs": 30,
+    "fat": 8
+  },
+  {
+    "name": "Kue Ape",
+    "aliases": ["kue apem", "serabi jakarta"],
+    "category": "snack",
+    "serving_size": "3 buah",
+    "calories": 180,
+    "protein": 3,
+    "carbs": 32,
+    "fat": 5
+  },
+  {
+    "name": "Cimol",
+    "aliases": ["cimol kuah", "cimol pedas"],
+    "category": "snack",
+    "serving_size": "1 porsi",
+    "calories": 250,
+    "protein": 2,
+    "carbs": 38,
+    "fat": 10
+  },
+  {
+    "name": "Tteokbokki",
+    "aliases": ["topokki", "rice cake korea"],
+    "category": "snack",
+    "serving_size": "1 porsi",
+    "calories": 320,
+    "protein": 6,
+    "carbs": 55,
+    "fat": 8
+  },
+  {
+    "name": "Takoyaki",
+    "aliases": ["tako"],
+    "category": "snack",
+    "serving_size": "6 buah",
+    "calories": 280,
+    "protein": 10,
+    "carbs": 35,
+    "fat": 10
+  },
+  {
+    "name": "Corn Dog",
+    "aliases": ["korean corn dog", "hotdog goreng"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 300,
+    "protein": 8,
+    "carbs": 35,
+    "fat": 14
+  },
+
+  {
+    "name": "Es Kelapa Muda",
+    "aliases": ["es kelapa", "kelapa muda", "air kelapa"],
+    "category": "minuman",
+    "serving_size": "1 gelas (300ml)",
+    "calories": 60,
+    "protein": 0.5,
+    "carbs": 15,
+    "fat": 0.2
+  },
+  {
+    "name": "Wedang Jahe",
+    "aliases": ["jahe hangat", "wedang"],
+    "category": "minuman",
+    "serving_size": "1 gelas (200ml)",
+    "calories": 80,
+    "protein": 0.5,
+    "carbs": 18,
+    "fat": 0.2
+  },
+  {
+    "name": "Bandrek",
+    "aliases": ["bandrek sunda"],
+    "category": "minuman",
+    "serving_size": "1 gelas (200ml)",
+    "calories": 100,
+    "protein": 1,
+    "carbs": 22,
+    "fat": 2
+  },
+  {
+    "name": "Bajigur",
+    "aliases": ["bajigur sunda"],
+    "category": "minuman",
+    "serving_size": "1 gelas (200ml)",
+    "calories": 120,
+    "protein": 2,
+    "carbs": 18,
+    "fat": 5
+  },
+  {
+    "name": "Sekoteng",
+    "aliases": ["sekoteng jahe"],
+    "category": "minuman",
+    "serving_size": "1 gelas",
+    "calories": 150,
+    "protein": 4,
+    "carbs": 28,
+    "fat": 3
+  },
+  {
+    "name": "STMJ",
+    "aliases": ["susu telur madu jahe"],
+    "category": "minuman",
+    "serving_size": "1 gelas (250ml)",
+    "calories": 200,
+    "protein": 8,
+    "carbs": 30,
+    "fat": 6
+  },
+  {
+    "name": "Wedang Ronde",
+    "aliases": ["ronde"],
+    "category": "minuman",
+    "serving_size": "1 mangkuk",
+    "calories": 180,
+    "protein": 3,
+    "carbs": 35,
+    "fat": 4
+  },
+  {
+    "name": "Es Cincau",
+    "aliases": ["cincau hijau", "es cincau hitam"],
+    "category": "minuman",
+    "serving_size": "1 gelas",
+    "calories": 100,
+    "protein": 1,
+    "carbs": 22,
+    "fat": 1
+  },
+  {
+    "name": "Es Doger",
+    "aliases": ["es doger bandung"],
+    "category": "minuman",
+    "serving_size": "1 gelas",
+    "calories": 200,
+    "protein": 3,
+    "carbs": 38,
+    "fat": 5
+  },
+  {
+    "name": "Es Kopyor",
+    "aliases": ["kopyor"],
+    "category": "minuman",
+    "serving_size": "1 gelas",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 28,
+    "fat": 8
+  },
+  {
+    "name": "Susu Coklat",
+    "aliases": ["susu cokelat", "milo", "coklat susu"],
+    "category": "minuman",
+    "serving_size": "1 gelas (250ml)",
+    "calories": 180,
+    "protein": 7,
+    "carbs": 25,
+    "fat": 6
+  },
+  {
+    "name": "Cappuccino",
+    "aliases": ["cappuccino sachet", "cappuccino cafe"],
+    "category": "minuman",
+    "serving_size": "1 gelas (200ml)",
+    "calories": 120,
+    "protein": 4,
+    "carbs": 15,
+    "fat": 5
+  },
+  {
+    "name": "Matcha Latte",
+    "aliases": ["green tea latte", "matcha"],
+    "category": "minuman",
+    "serving_size": "1 gelas (300ml)",
+    "calories": 180,
+    "protein": 5,
+    "carbs": 28,
+    "fat": 5
+  },
+  {
+    "name": "Thai Tea",
+    "aliases": ["thai tea manis", "es thai tea"],
+    "category": "minuman",
+    "serving_size": "1 gelas (300ml)",
+    "calories": 200,
+    "protein": 2,
+    "carbs": 38,
+    "fat": 5
+  },
+  {
+    "name": "Jus Mangga",
+    "aliases": ["mango juice"],
+    "category": "minuman",
+    "serving_size": "1 gelas (250ml)",
+    "calories": 130,
+    "protein": 1,
+    "carbs": 32,
+    "fat": 0.5
+  },
+  {
+    "name": "Jus Jambu",
+    "aliases": ["jus jambu merah", "guava juice"],
+    "category": "minuman",
+    "serving_size": "1 gelas (250ml)",
+    "calories": 100,
+    "protein": 1,
+    "carbs": 24,
+    "fat": 0.3
+  },
+  {
+    "name": "Jus Wortel",
+    "aliases": ["carrot juice"],
+    "category": "minuman",
+    "serving_size": "1 gelas (250ml)",
+    "calories": 80,
+    "protein": 2,
+    "carbs": 18,
+    "fat": 0.3
+  },
+  {
+    "name": "Smoothie Bowl",
+    "aliases": ["acai bowl", "smoothie"],
+    "category": "minuman",
+    "serving_size": "1 bowl",
+    "calories": 300,
+    "protein": 6,
+    "carbs": 50,
+    "fat": 10
+  },
+  {
+    "name": "Es Krim",
+    "aliases": ["ice cream", "eskrim", "gelato"],
+    "category": "minuman",
+    "serving_size": "1 scoop (80g)",
+    "calories": 140,
+    "protein": 2.5,
+    "carbs": 18,
+    "fat": 7
+  },
+  {
+    "name": "Milkshake",
+    "aliases": ["milkshake coklat", "milkshake vanilla"],
+    "category": "minuman",
+    "serving_size": "1 gelas (350ml)",
+    "calories": 350,
+    "protein": 8,
+    "carbs": 50,
+    "fat": 14
+  },
+  {
+    "name": "Sprite",
+    "aliases": ["sprite lemon", "7up"],
+    "category": "minuman",
+    "serving_size": "1 kaleng (330ml)",
+    "calories": 130,
+    "protein": 0,
+    "carbs": 33,
+    "fat": 0
+  },
+  {
+    "name": "Fanta",
+    "aliases": ["fanta orange", "fanta strawberry"],
+    "category": "minuman",
+    "serving_size": "1 kaleng (330ml)",
+    "calories": 140,
+    "protein": 0,
+    "carbs": 36,
+    "fat": 0
+  },
+
+  {
+    "name": "Durian",
+    "aliases": ["duren", "durian montong"],
+    "category": "buah",
+    "serving_size": "2 biji (100g daging)",
+    "calories": 150,
+    "protein": 1.5,
+    "carbs": 27,
+    "fat": 5
+  },
+  {
+    "name": "Rambutan",
+    "aliases": ["rambutan binjai"],
+    "category": "buah",
+    "serving_size": "10 buah (100g daging)",
+    "calories": 80,
+    "protein": 0.7,
+    "carbs": 20,
+    "fat": 0.2
+  },
+  {
+    "name": "Salak",
+    "aliases": ["salak pondoh", "snake fruit"],
+    "category": "buah",
+    "serving_size": "3 buah (100g)",
+    "calories": 80,
+    "protein": 0.4,
+    "carbs": 20,
+    "fat": 0.1
+  },
+  {
+    "name": "Nanas",
+    "aliases": ["pineapple", "nanas madu"],
+    "category": "buah",
+    "serving_size": "1 potong (150g)",
+    "calories": 75,
+    "protein": 0.8,
+    "carbs": 20,
+    "fat": 0.2
+  },
+  {
+    "name": "Kelengkeng",
+    "aliases": ["lengkeng", "longan"],
+    "category": "buah",
+    "serving_size": "10 buah (100g daging)",
+    "calories": 60,
+    "protein": 1.3,
+    "carbs": 15,
+    "fat": 0.1
+  },
+  {
+    "name": "Leci",
+    "aliases": ["lychee", "leci merah"],
+    "category": "buah",
+    "serving_size": "10 buah (100g daging)",
+    "calories": 65,
+    "protein": 0.8,
+    "carbs": 17,
+    "fat": 0.4
+  },
+  {
+    "name": "Melon",
+    "aliases": ["melon hijau", "honeydew"],
+    "category": "buah",
+    "serving_size": "1 potong besar (200g)",
+    "calories": 60,
+    "protein": 1,
+    "carbs": 15,
+    "fat": 0.2
+  },
+  {
+    "name": "Anggur",
+    "aliases": ["grape", "anggur merah", "anggur hijau"],
+    "category": "buah",
+    "serving_size": "15 buah (100g)",
+    "calories": 70,
+    "protein": 0.7,
+    "carbs": 18,
+    "fat": 0.2
+  },
+  {
+    "name": "Strawberry",
+    "aliases": ["stroberi"],
+    "category": "buah",
+    "serving_size": "8 buah (150g)",
+    "calories": 50,
+    "protein": 1,
+    "carbs": 12,
+    "fat": 0.5
+  },
+  {
+    "name": "Pir",
+    "aliases": ["pear", "buah pir"],
+    "category": "buah",
+    "serving_size": "1 buah sedang (150g)",
+    "calories": 85,
+    "protein": 0.5,
+    "carbs": 22,
+    "fat": 0.2
+  },
+  {
+    "name": "Jambu Biji",
+    "aliases": ["jambu merah", "guava"],
+    "category": "buah",
+    "serving_size": "1 buah sedang (150g)",
+    "calories": 100,
+    "protein": 3.8,
+    "carbs": 24,
+    "fat": 1.5
+  },
+  {
+    "name": "Kiwi",
+    "aliases": ["kiwi fruit", "kiwi hijau"],
+    "category": "buah",
+    "serving_size": "1 buah (75g)",
+    "calories": 45,
+    "protein": 0.8,
+    "carbs": 11,
+    "fat": 0.4
+  },
+  {
+    "name": "Kurma",
+    "aliases": ["dates", "kurma ajwa", "kurma medjool"],
+    "category": "buah",
+    "serving_size": "3 buah (30g)",
+    "calories": 85,
+    "protein": 0.6,
+    "carbs": 22,
+    "fat": 0.1
+  },
+  {
+    "name": "Kelapa Muda",
+    "aliases": ["degan", "kelapa"],
+    "category": "buah",
+    "serving_size": "1/2 buah daging (100g)",
+    "calories": 80,
+    "protein": 1,
+    "carbs": 6,
+    "fat": 6.5
+  },
+  {
+    "name": "Sirsak",
+    "aliases": ["soursop"],
+    "category": "buah",
+    "serving_size": "1 potong (100g)",
+    "calories": 65,
+    "protein": 1,
+    "carbs": 17,
+    "fat": 0.3
+  },
+  {
+    "name": "Kedondong",
+    "aliases": ["ambarella"],
+    "category": "buah",
+    "serving_size": "2 buah (100g)",
+    "calories": 45,
+    "protein": 0.8,
+    "carbs": 10,
+    "fat": 0.1
+  },
+
+  {
+    "name": "Nasi Warteg",
+    "aliases": ["makan warteg", "warteg"],
+    "category": "combo",
+    "serving_size": "1 porsi (nasi + 2 lauk)",
+    "calories": 550,
+    "protein": 22,
+    "carbs": 60,
+    "fat": 24
+  },
+  {
+    "name": "Nasi Goreng Ayam",
+    "aliases": ["nasgor ayam"],
+    "category": "combo",
+    "serving_size": "1 piring",
+    "calories": 480,
+    "protein": 20,
+    "carbs": 55,
+    "fat": 20
+  },
+  {
+    "name": "Nasi + Soto Ayam",
+    "aliases": ["nasi soto", "nasi soto ayam"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 495,
+    "protein": 21.6,
+    "carbs": 73.2,
+    "fat": 12.3
+  },
+  {
+    "name": "Nasi + Gulai Ayam",
+    "aliases": ["nasi gulai", "nasi kari ayam"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 475,
+    "protein": 25.6,
+    "carbs": 51.2,
+    "fat": 18.3
+  },
+  {
+    "name": "Nasi + Tempe + Tahu",
+    "aliases": ["nasi tempe tahu", "nasi sayur tahu tempe"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 545,
+    "protein": 27.6,
+    "carbs": 58.2,
+    "fat": 22.3
+  },
+  {
+    "name": "Nasi + Bebek Goreng",
+    "aliases": ["nasi bebek", "nasi bebek goreng"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 495,
+    "protein": 25.6,
+    "carbs": 48.2,
+    "fat": 22.3
+  },
+  {
+    "name": "Paket McD Ayam",
+    "aliases": ["paket mcd", "paket hemat mcd", "panas 1 mcd"],
+    "category": "combo",
+    "serving_size": "1 paket (ayam + nasi + minum)",
+    "calories": 650,
+    "protein": 28,
+    "carbs": 70,
+    "fat": 28
+  },
+  {
+    "name": "Paket KFC",
+    "aliases": ["paket super besar kfc", "kombo kfc"],
+    "category": "combo",
+    "serving_size": "1 paket (ayam + nasi + minum)",
+    "calories": 680,
+    "protein": 30,
+    "carbs": 72,
+    "fat": 30
+  },
+
+  {
+    "name": "Kecap Manis",
+    "aliases": ["kecap", "kecap ABC"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan (15ml)",
+    "calories": 40,
+    "protein": 0.5,
+    "carbs": 9,
+    "fat": 0
+  },
+  {
+    "name": "Sambal Matah",
+    "aliases": ["sambal bali", "sambal mentah"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan",
+    "calories": 25,
+    "protein": 0.3,
+    "carbs": 2,
+    "fat": 2
+  },
+  {
+    "name": "Sambal Ijo",
+    "aliases": ["sambal hijau padang"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan",
+    "calories": 20,
+    "protein": 0.5,
+    "carbs": 2,
+    "fat": 1
+  },
+  {
+    "name": "Saus Kacang",
+    "aliases": ["bumbu kacang", "saus pecel"],
+    "category": "condiment",
+    "serving_size": "2 sendok makan (30g)",
+    "calories": 100,
+    "protein": 4,
+    "carbs": 8,
+    "fat": 6
+  },
+  {
+    "name": "Santan",
+    "aliases": ["coconut milk", "santan kental"],
+    "category": "condiment",
+    "serving_size": "100ml",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 3,
+    "fat": 18
+  },
+  {
+    "name": "Minyak Goreng",
+    "aliases": ["cooking oil", "minyak kelapa sawit"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan (15ml)",
+    "calories": 120,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 14
+  },
+  {
+    "name": "Mentega",
+    "aliases": ["butter", "margarin", "margarine"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan (14g)",
+    "calories": 100,
+    "protein": 0.1,
+    "carbs": 0,
+    "fat": 11
+  },
+  {
+    "name": "Mayones",
+    "aliases": ["mayonnaise", "mayo"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan (15g)",
+    "calories": 90,
+    "protein": 0.2,
+    "carbs": 0.5,
+    "fat": 10
+  },
+  {
+    "name": "Saos Sambal",
+    "aliases": ["saus sambal", "saos ABC", "sambal botol"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan (15ml)",
+    "calories": 15,
+    "protein": 0.2,
+    "carbs": 3,
+    "fat": 0.1
+  },
+  {
+    "name": "Saos Tomat",
+    "aliases": ["saus tomat", "ketchup"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan (15ml)",
+    "calories": 20,
+    "protein": 0.2,
+    "carbs": 5,
+    "fat": 0
+  },
+
+  {
+    "name": "Nasi + Ayam Geprek",
+    "aliases": ["nasi geprek", "paket geprek"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 545,
+    "protein": 31.6,
+    "carbs": 61.2,
+    "fat": 18.3
+  },
+  {
+    "name": "Nasi Goreng Pete",
+    "aliases": ["nasgor pete", "nasi goreng petai"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 400,
+    "protein": 12,
+    "carbs": 52,
+    "fat": 16
+  },
+  {
+    "name": "Nasi Goreng Kampung",
+    "aliases": ["nasi goreng teri", "nasi goreng sederhana"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 380,
+    "protein": 11,
+    "carbs": 52,
+    "fat": 14
+  },
+  {
+    "name": "Tongseng Ayam",
+    "aliases": ["tongseng ayam pedas"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 320,
+    "protein": 22,
+    "carbs": 15,
+    "fat": 20
+  },
+  {
+    "name": "Sup Iga",
+    "aliases": ["sop iga sapi", "ribs soup"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 380,
+    "protein": 28,
+    "carbs": 12,
+    "fat": 24
+  },
+  {
+    "name": "Nasi Goreng Spesial",
+    "aliases": ["nasgor spesial", "nasi goreng komplit"],
+    "category": "combo",
+    "serving_size": "1 piring (+ telur + ayam)",
+    "calories": 550,
+    "protein": 22,
+    "carbs": 58,
+    "fat": 24
+  },
+  {
+    "name": "Es Pisang Ijo",
+    "aliases": ["pisang ijo", "es pisang hijau"],
+    "category": "minuman",
+    "serving_size": "1 porsi",
+    "calories": 250,
+    "protein": 3,
+    "carbs": 48,
+    "fat": 6
+  },
+  {
+    "name": "Lapis Surabaya",
+    "aliases": ["spiku", "lapis legit surabaya"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 200,
+    "protein": 4,
+    "carbs": 22,
+    "fat": 11
+  },
+  {
+    "name": "Brownies",
+    "aliases": ["brownies kukus", "brownies amanda", "brownies panggang"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 220,
+    "protein": 3,
+    "carbs": 28,
+    "fat": 11
+  },
+  {
+    "name": "Cheesecake",
+    "aliases": ["kue keju"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 300,
+    "protein": 6,
+    "carbs": 25,
+    "fat": 20
+  },
+  {
+    "name": "Pancake",
+    "aliases": ["pancake maple", "panekuk"],
+    "category": "snack",
+    "serving_size": "2 lembar",
+    "calories": 280,
+    "protein": 6,
+    "carbs": 38,
+    "fat": 12
+  },
+  {
+    "name": "Waffle",
+    "aliases": ["wafel"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 260,
+    "protein": 5,
+    "carbs": 32,
+    "fat": 13
+  },
+  {
+    "name": "Puding",
+    "aliases": ["pudding", "puding coklat", "puding buah"],
+    "category": "snack",
+    "serving_size": "1 cup (120g)",
+    "calories": 130,
+    "protein": 3,
+    "carbs": 22,
+    "fat": 4
+  },
+  {
+    "name": "Mochi",
+    "aliases": ["mochi isi kacang", "moci"],
+    "category": "snack",
+    "serving_size": "3 buah",
+    "calories": 150,
+    "protein": 3,
+    "carbs": 30,
+    "fat": 2
+  },
+  {
+    "name": "Kacang Goreng",
+    "aliases": ["kacang tanah goreng", "kacang bawang"],
+    "category": "snack",
+    "serving_size": "1 genggam (30g)",
+    "calories": 170,
+    "protein": 7,
+    "carbs": 5,
+    "fat": 14
+  },
+  {
+    "name": "Keripik Singkong",
+    "aliases": ["keripik", "chips singkong"],
+    "category": "snack",
+    "serving_size": "1 bungkus kecil (50g)",
+    "calories": 250,
+    "protein": 1,
+    "carbs": 30,
+    "fat": 14
+  },
+  {
+    "name": "Seblak",
+    "aliases": ["seblak basah", "seblak kuah", "seblak kering"],
+    "category": "snack",
+    "serving_size": "1 porsi",
+    "calories": 350,
+    "protein": 10,
+    "carbs": 45,
+    "fat": 14
+  },
+  {
+    "name": "Cilok",
+    "aliases": ["cilok goreng", "cilok kuah"],
+    "category": "snack",
+    "serving_size": "10 buah",
+    "calories": 250,
+    "protein": 3,
+    "carbs": 38,
+    "fat": 10
+  },
+  {
+    "name": "Bala-bala",
+    "aliases": ["bakwan sayur", "ote-ote"],
+    "category": "snack",
+    "serving_size": "3 buah",
+    "calories": 240,
+    "protein": 5,
+    "carbs": 25,
+    "fat": 13
+  },
+  {
+    "name": "Sop Kaki Kambing",
+    "aliases": ["sop kaki", "gulai kaki kambing"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 400,
+    "protein": 30,
+    "carbs": 10,
+    "fat": 28
+  },
+  {
+    "name": "Gulai Ikan",
+    "aliases": ["gulai ikan patin", "gulai ikan mas"],
+    "category": "protein",
+    "serving_size": "1 potong + kuah",
+    "calories": 250,
+    "protein": 20,
+    "carbs": 6,
+    "fat": 16
+  },
+  {
+    "name": "Ikan Asin Goreng",
+    "aliases": ["ikan asin", "teri goreng"],
+    "category": "protein",
+    "serving_size": "1 porsi (30g)",
+    "calories": 100,
+    "protein": 12,
+    "carbs": 2,
+    "fat": 5
+  },
+  {
+    "name": "Pindang Ikan",
+    "aliases": ["pindang palembang", "pindang patin"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 200,
+    "protein": 22,
+    "carbs": 8,
+    "fat": 8
+  },
+  {
+    "name": "Ayam Kalasan",
+    "aliases": ["ayam goreng kalasan"],
+    "category": "protein",
+    "serving_size": "1 potong (150g)",
+    "calories": 320,
+    "protein": 26,
+    "carbs": 12,
+    "fat": 18
+  },
+  {
+    "name": "Ayam Betutu",
+    "aliases": ["betutu bali", "ayam betutu bali"],
+    "category": "protein",
+    "serving_size": "1 potong (150g)",
+    "calories": 350,
+    "protein": 28,
+    "carbs": 8,
+    "fat": 22
+  },
+  {
+    "name": "Sate Lilit",
+    "aliases": ["sate lilit bali", "sate ikan"],
+    "category": "protein",
+    "serving_size": "5 tusuk",
+    "calories": 200,
+    "protein": 15,
+    "carbs": 10,
+    "fat": 12
+  },
+  {
+    "name": "Nasi Kucing",
+    "aliases": ["nasi kucing angkringan", "angkringan"],
+    "category": "combo",
+    "serving_size": "1 bungkus kecil",
+    "calories": 200,
+    "protein": 5,
+    "carbs": 28,
+    "fat": 7
+  },
+  {
+    "name": "Nasi Bungkus Warteg",
+    "aliases": ["nasi bungkus", "nasi kotak"],
+    "category": "combo",
+    "serving_size": "1 bungkus (nasi + 3 lauk)",
+    "calories": 650,
+    "protein": 25,
+    "carbs": 65,
+    "fat": 30
+  },
+  {
+    "name": "Nasi Tumpang",
+    "aliases": ["nasi tumpang kediri"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 400,
+    "protein": 15,
+    "carbs": 50,
+    "fat": 16
+  },
+  {
+    "name": "Whey Protein",
+    "aliases": ["protein shake", "susu protein"],
+    "category": "minuman",
+    "serving_size": "1 scoop (30g) + air",
+    "calories": 120,
+    "protein": 24,
+    "carbs": 3,
+    "fat": 1.5
+  },
+  {
+    "name": "Granola",
+    "aliases": ["granola bar", "granola bowl"],
+    "category": "karbohidrat",
+    "serving_size": "1/2 cup (50g)",
+    "calories": 220,
+    "protein": 5,
+    "carbs": 32,
+    "fat": 9
+  },
+  {
+    "name": "Keju",
+    "aliases": ["cheese", "keju cheddar", "keju slice"],
+    "category": "protein",
+    "serving_size": "1 lembar (20g)",
+    "calories": 80,
+    "protein": 5,
+    "carbs": 0.5,
+    "fat": 6.5
+  },
+  {
+    "name": "Selai Kacang",
+    "aliases": ["peanut butter", "selai peanut"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan (16g)",
+    "calories": 95,
+    "protein": 4,
+    "carbs": 3,
+    "fat": 8
+  },
+  {
+    "name": "Madu",
+    "aliases": ["honey", "madu murni"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan (21g)",
+    "calories": 65,
+    "protein": 0.1,
+    "carbs": 17,
+    "fat": 0
+  },
+  {
+    "name": "Gula Pasir",
+    "aliases": ["gula", "sugar", "gula putih"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan (12g)",
+    "calories": 48,
+    "protein": 0,
+    "carbs": 12,
+    "fat": 0
+  },
+  {
+    "name": "Gula Aren",
+    "aliases": ["gula merah", "palm sugar", "brown sugar"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan (15g)",
+    "calories": 55,
+    "protein": 0.1,
+    "carbs": 14,
+    "fat": 0
+  },
+
+
+  {
+    "name": "Sate Padang",
+    "aliases": ["sate padang pariaman", "sate padang panjang"],
+    "category": "protein",
+    "serving_size": "10 tusuk + kuah",
+    "calories": 500,
+    "protein": 28,
+    "carbs": 25,
+    "fat": 32
+  },
+  {
+    "name": "Gulai Tunjang",
+    "aliases": ["tunjang", "gulai kikil padang", "kikil padang"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 350,
+    "protein": 22,
+    "carbs": 8,
+    "fat": 26
+  },
+  {
+    "name": "Gulai Tambusu",
+    "aliases": ["tambusu", "usus padang"],
+    "category": "protein",
+    "serving_size": "1 potong",
+    "calories": 280,
+    "protein": 15,
+    "carbs": 10,
+    "fat": 20
+  },
+  {
+    "name": "Gulai Otak",
+    "aliases": ["otak sapi padang", "otak gulai"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 300,
+    "protein": 14,
+    "carbs": 5,
+    "fat": 25
+  },
+  {
+    "name": "Gulai Babat",
+    "aliases": ["babat padang", "babat gulai"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 250,
+    "protein": 18,
+    "carbs": 6,
+    "fat": 18
+  },
+  {
+    "name": "Gulai Cincang",
+    "aliases": ["cincang padang", "gulai daging cincang"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 280,
+    "protein": 20,
+    "carbs": 8,
+    "fat": 19
+  },
+  {
+    "name": "Gulai Kepala Ikan",
+    "aliases": ["kepala ikan gulai", "gulai kepala kakap"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 320,
+    "protein": 24,
+    "carbs": 6,
+    "fat": 22
+  },
+  {
+    "name": "Gulai Nangka Padang",
+    "aliases": ["nangka padang", "gulai cubadak"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 180,
+    "protein": 3,
+    "carbs": 22,
+    "fat": 10
+  },
+  {
+    "name": "Pangek Ikan",
+    "aliases": ["pangek ikan nila", "pangek padang"],
+    "category": "protein",
+    "serving_size": "1 potong",
+    "calories": 220,
+    "protein": 22,
+    "carbs": 8,
+    "fat": 12
+  },
+  {
+    "name": "Ikan Asam Padeh",
+    "aliases": ["asam padeh", "asam pedas padang"],
+    "category": "protein",
+    "serving_size": "1 potong + kuah",
+    "calories": 200,
+    "protein": 20,
+    "carbs": 6,
+    "fat": 11
+  },
+  {
+    "name": "Singgang Ayam",
+    "aliases": ["singgang padang"],
+    "category": "protein",
+    "serving_size": "1 potong",
+    "calories": 230,
+    "protein": 24,
+    "carbs": 4,
+    "fat": 13
+  },
+  {
+    "name": "Ayam Lado Hijau",
+    "aliases": ["ayam cabe ijo padang", "ayam lado mudo"],
+    "category": "protein",
+    "serving_size": "1 potong",
+    "calories": 260,
+    "protein": 26,
+    "carbs": 5,
+    "fat": 15
+  },
+  {
+    "name": "Dendeng Lambok",
+    "aliases": ["dendeng basah padang"],
+    "category": "protein",
+    "serving_size": "1 porsi (60g)",
+    "calories": 200,
+    "protein": 18,
+    "carbs": 6,
+    "fat": 12
+  },
+  {
+    "name": "Telur Dadar Padang",
+    "aliases": ["dadar padang", "telur dadar tebal padang"],
+    "category": "protein",
+    "serving_size": "1 potong",
+    "calories": 160,
+    "protein": 10,
+    "carbs": 3,
+    "fat": 12
+  },
+  {
+    "name": "Perkedel Padang",
+    "aliases": ["perkedel kentang padang"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 120,
+    "protein": 3,
+    "carbs": 12,
+    "fat": 7
+  },
+  {
+    "name": "Gulai Paku",
+    "aliases": ["pakis gulai", "gulai pakis padang"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 130,
+    "protein": 3,
+    "carbs": 8,
+    "fat": 10
+  },
+  {
+    "name": "Sayur Daun Singkong Padang",
+    "aliases": ["daun singkong padang", "sayur daun ubi"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 150,
+    "protein": 5,
+    "carbs": 10,
+    "fat": 10
+  },
+  {
+    "name": "Gulai Cancang Tunjang",
+    "aliases": ["gulai campur padang"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 320,
+    "protein": 20,
+    "carbs": 8,
+    "fat": 24
+  },
+  {
+    "name": "Sambal Lado Merah Padang",
+    "aliases": ["sambal merah padang", "lado merah"],
+    "category": "condiment",
+    "serving_size": "1 sendok makan",
+    "calories": 20,
+    "protein": 0.3,
+    "carbs": 2,
+    "fat": 1.5
+  },
+  {
+    "name": "Dendeng Kering Padang",
+    "aliases": ["dendeng tipis padang", "dendeng crispy"],
+    "category": "protein",
+    "serving_size": "1 porsi (40g)",
+    "calories": 160,
+    "protein": 20,
+    "carbs": 5,
+    "fat": 7
+  },
+  {
+    "name": "Rendang Telur",
+    "aliases": ["telur rendang"],
+    "category": "protein",
+    "serving_size": "2 butir",
+    "calories": 260,
+    "protein": 14,
+    "carbs": 8,
+    "fat": 18
+  },
+  {
+    "name": "Rendang Jengkol",
+    "aliases": ["jengkol rendang"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 240,
+    "protein": 10,
+    "carbs": 18,
+    "fat": 14
+  },
+  {
+    "name": "Gulai Jariang",
+    "aliases": ["gulai jengkol padang", "jengkol gulai"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 220,
+    "protein": 8,
+    "carbs": 20,
+    "fat": 12
+  },
+
+  {
+    "name": "Oseng-oseng Tempe",
+    "aliases": ["oseng tempe", "tumis tempe kecap"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 180,
+    "protein": 12,
+    "carbs": 12,
+    "fat": 10
+  },
+  {
+    "name": "Oseng-oseng Daging",
+    "aliases": ["oseng daging", "oseng sapi"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 220,
+    "protein": 18,
+    "carbs": 8,
+    "fat": 14
+  },
+  {
+    "name": "Oseng-oseng Kangkung",
+    "aliases": ["oseng kangkung"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 80,
+    "protein": 3,
+    "carbs": 5,
+    "fat": 6
+  },
+  {
+    "name": "Oseng-oseng Tahu",
+    "aliases": ["oseng tahu", "tumis tahu"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 150,
+    "protein": 10,
+    "carbs": 8,
+    "fat": 9
+  },
+  {
+    "name": "Sambal Goreng Ati Ampela",
+    "aliases": ["sambal goreng ati", "ati ampela", "sambal goreng hati"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 220,
+    "protein": 16,
+    "carbs": 10,
+    "fat": 13
+  },
+  {
+    "name": "Sambal Goreng Kentang",
+    "aliases": ["sambal goreng kentang ati", "samgor kentang"],
+    "category": "snack",
+    "serving_size": "1 porsi",
+    "calories": 200,
+    "protein": 6,
+    "carbs": 22,
+    "fat": 10
+  },
+  {
+    "name": "Sambal Goreng Tempe",
+    "aliases": ["samgor tempe", "tempe sambal goreng"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 190,
+    "protein": 12,
+    "carbs": 14,
+    "fat": 10
+  },
+  {
+    "name": "Sambal Goreng Krecek",
+    "aliases": ["krecek", "sambal goreng kulit", "krecek jogja"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 180,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 12
+  },
+  {
+    "name": "Tumis Kacang Panjang",
+    "aliases": ["kacang panjang tumis", "oseng kacang panjang"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 80,
+    "protein": 3,
+    "carbs": 8,
+    "fat": 4
+  },
+  {
+    "name": "Semur Telur",
+    "aliases": ["telur semur", "telor semur"],
+    "category": "protein",
+    "serving_size": "2 butir",
+    "calories": 200,
+    "protein": 13,
+    "carbs": 10,
+    "fat": 12
+  },
+  {
+    "name": "Semur Tahu",
+    "aliases": ["tahu semur"],
+    "category": "protein",
+    "serving_size": "1 porsi (3 potong)",
+    "calories": 160,
+    "protein": 10,
+    "carbs": 12,
+    "fat": 8
+  },
+  {
+    "name": "Terong Goreng",
+    "aliases": ["terong goreng tepung", "terong goreng biasa"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 100,
+    "protein": 2,
+    "carbs": 8,
+    "fat": 7
+  },
+  {
+    "name": "Ikan Teri Kacang",
+    "aliases": ["teri kacang", "teri medan", "ikan teri goreng"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 180,
+    "protein": 12,
+    "carbs": 8,
+    "fat": 12
+  },
+  {
+    "name": "Ikan Tongkol Goreng",
+    "aliases": ["tongkol goreng", "tuna goreng"],
+    "category": "protein",
+    "serving_size": "1 potong",
+    "calories": 180,
+    "protein": 22,
+    "carbs": 4,
+    "fat": 8
+  },
+  {
+    "name": "Ikan Mas Goreng",
+    "aliases": ["ikan mas", "ikan emas goreng"],
+    "category": "protein",
+    "serving_size": "1 ekor sedang",
+    "calories": 200,
+    "protein": 22,
+    "carbs": 5,
+    "fat": 10
+  },
+  {
+    "name": "Tumis Tahu Tempe",
+    "aliases": ["oseng tahu tempe", "tumis tahu tempe kecap"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 200,
+    "protein": 14,
+    "carbs": 10,
+    "fat": 12
+  },
+  {
+    "name": "Sayur Tumis Labu",
+    "aliases": ["labu kuning tumis", "tumis waluh"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 70,
+    "protein": 2,
+    "carbs": 10,
+    "fat": 3
+  },
+  {
+    "name": "Tumis Jamur",
+    "aliases": ["jamur goreng", "cah jamur", "oseng jamur"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 80,
+    "protein": 4,
+    "carbs": 5,
+    "fat": 5
+  },
+  {
+    "name": "Ayam Goreng Warteg",
+    "aliases": ["ayam warteg", "ayam goreng tegal"],
+    "category": "protein",
+    "serving_size": "1 potong",
+    "calories": 250,
+    "protein": 22,
+    "carbs": 8,
+    "fat": 15
+  },
+  {
+    "name": "Ikan Peda Goreng",
+    "aliases": ["peda goreng", "ikan peda"],
+    "category": "protein",
+    "serving_size": "1 ekor",
+    "calories": 150,
+    "protein": 18,
+    "carbs": 2,
+    "fat": 8
+  },
+  {
+    "name": "Sayur Tumis Wortel",
+    "aliases": ["tumis wortel", "cah wortel"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 70,
+    "protein": 2,
+    "carbs": 8,
+    "fat": 4
+  },
+  {
+    "name": "Tahu Telur",
+    "aliases": ["tahu telor", "tahu tek"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 280,
+    "protein": 15,
+    "carbs": 18,
+    "fat": 16
+  },
+  {
+    "name": "Sayur Tumis Terong",
+    "aliases": ["tumis terong", "cah terong"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 90,
+    "protein": 2,
+    "carbs": 8,
+    "fat": 6
+  },
+  {
+    "name": "Pepes Tempe",
+    "aliases": ["pepes tempe kemangi"],
+    "category": "protein",
+    "serving_size": "1 bungkus",
+    "calories": 140,
+    "protein": 10,
+    "carbs": 8,
+    "fat": 8
+  },
+  {
+    "name": "Sambel Goreng Jipang",
+    "aliases": ["labu siam sambal goreng", "jipang tumis"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 90,
+    "protein": 2,
+    "carbs": 10,
+    "fat": 5
+  },
+  {
+    "name": "Daging Empal",
+    "aliases": ["empal daging sapi", "empal gepuk"],
+    "category": "protein",
+    "serving_size": "1 potong (80g)",
+    "calories": 230,
+    "protein": 20,
+    "carbs": 8,
+    "fat": 13
+  },
+  {
+    "name": "Jengkol Balado",
+    "aliases": ["jengkol goreng balado", "jengkol"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 200,
+    "protein": 6,
+    "carbs": 22,
+    "fat": 10
+  },
+  {
+    "name": "Pete Balado",
+    "aliases": ["petai balado", "pete goreng", "petai goreng"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 150,
+    "protein": 5,
+    "carbs": 12,
+    "fat": 10
+  },
+  {
+    "name": "Kikil Sapi",
+    "aliases": ["kikil kuah", "kikil soto"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 200,
+    "protein": 18,
+    "carbs": 3,
+    "fat": 14
+  },
+  {
+    "name": "Babat Goreng",
+    "aliases": ["babat sapi goreng", "babat crispy"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 200,
+    "protein": 16,
+    "carbs": 8,
+    "fat": 12
+  },
+  {
+    "name": "Usus Ayam Goreng",
+    "aliases": ["usus goreng", "usus crispy"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 180,
+    "protein": 12,
+    "carbs": 10,
+    "fat": 10
+  },
+  {
+    "name": "Ceker Ayam",
+    "aliases": ["ceker goreng", "ceker bumbu", "chicken feet"],
+    "category": "protein",
+    "serving_size": "5 buah",
+    "calories": 150,
+    "protein": 14,
+    "carbs": 3,
+    "fat": 10
+  },
+  {
+    "name": "Kepala Ayam Goreng",
+    "aliases": ["kepala ayam"],
+    "category": "protein",
+    "serving_size": "2 buah",
+    "calories": 120,
+    "protein": 10,
+    "carbs": 4,
+    "fat": 7
+  },
+
+  {
+    "name": "Sushi",
+    "aliases": ["sushi roll", "nigiri", "california roll", "salmon sushi"],
+    "category": "karbohidrat",
+    "serving_size": "6 potong",
+    "calories": 300,
+    "protein": 12,
+    "carbs": 42,
+    "fat": 8
+  },
+  {
+    "name": "Sashimi",
+    "aliases": ["sashimi salmon", "sashimi tuna"],
+    "category": "protein",
+    "serving_size": "5 potong (100g)",
+    "calories": 130,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 4
+  },
+  {
+    "name": "Chicken Katsu",
+    "aliases": ["katsu", "katsu curry", "ayam katsu", "chicken cutlet"],
+    "category": "protein",
+    "serving_size": "1 porsi (150g)",
+    "calories": 350,
+    "protein": 26,
+    "carbs": 18,
+    "fat": 20
+  },
+  {
+    "name": "Gyudon",
+    "aliases": ["beef bowl", "beef rice bowl", "yoshinoya"],
+    "category": "combo",
+    "serving_size": "1 mangkuk",
+    "calories": 550,
+    "protein": 22,
+    "carbs": 65,
+    "fat": 22
+  },
+  {
+    "name": "Tempura",
+    "aliases": ["tempura udang", "tempura sayur"],
+    "category": "snack",
+    "serving_size": "5 buah",
+    "calories": 300,
+    "protein": 10,
+    "carbs": 30,
+    "fat": 15
+  },
+  {
+    "name": "Gyoza",
+    "aliases": ["dumpling", "pangsit jepang", "pot sticker"],
+    "category": "snack",
+    "serving_size": "5 buah",
+    "calories": 250,
+    "protein": 10,
+    "carbs": 28,
+    "fat": 11
+  },
+  {
+    "name": "Onigiri",
+    "aliases": ["rice ball", "nasi kepal jepang"],
+    "category": "karbohidrat",
+    "serving_size": "1 buah",
+    "calories": 180,
+    "protein": 5,
+    "carbs": 35,
+    "fat": 2
+  },
+  {
+    "name": "Miso Soup",
+    "aliases": ["sup miso"],
+    "category": "sayuran",
+    "serving_size": "1 mangkuk (200ml)",
+    "calories": 40,
+    "protein": 3,
+    "carbs": 4,
+    "fat": 1.5
+  },
+  {
+    "name": "Edamame",
+    "aliases": ["kacang edamame", "kedelai jepang"],
+    "category": "snack",
+    "serving_size": "1 porsi (100g)",
+    "calories": 120,
+    "protein": 11,
+    "carbs": 9,
+    "fat": 5
+  },
+  {
+    "name": "Okonomiyaki",
+    "aliases": ["japanese pancake"],
+    "category": "snack",
+    "serving_size": "1 porsi",
+    "calories": 400,
+    "protein": 14,
+    "carbs": 45,
+    "fat": 18
+  },
+  {
+    "name": "Udon",
+    "aliases": ["udon kuah", "kake udon"],
+    "category": "karbohidrat",
+    "serving_size": "1 mangkuk",
+    "calories": 380,
+    "protein": 12,
+    "carbs": 58,
+    "fat": 10
+  },
+  {
+    "name": "Yakitori",
+    "aliases": ["sate ayam jepang"],
+    "category": "protein",
+    "serving_size": "5 tusuk",
+    "calories": 250,
+    "protein": 22,
+    "carbs": 8,
+    "fat": 14
+  },
+
+  {
+    "name": "Bibimbap",
+    "aliases": ["bibimbap korea", "nasi campur korea"],
+    "category": "combo",
+    "serving_size": "1 mangkuk",
+    "calories": 500,
+    "protein": 20,
+    "carbs": 60,
+    "fat": 18
+  },
+  {
+    "name": "Kimbap",
+    "aliases": ["gimbap", "sushi korea"],
+    "category": "karbohidrat",
+    "serving_size": "1 roll (8 potong)",
+    "calories": 350,
+    "protein": 12,
+    "carbs": 50,
+    "fat": 10
+  },
+  {
+    "name": "Korean Fried Chicken",
+    "aliases": ["kfc korea", "ayam korea", "yangnyeom chicken"],
+    "category": "protein",
+    "serving_size": "5 potong",
+    "calories": 450,
+    "protein": 28,
+    "carbs": 25,
+    "fat": 26
+  },
+  {
+    "name": "Korean BBQ",
+    "aliases": ["bulgogi", "samgyeopsal", "daging panggang korea"],
+    "category": "protein",
+    "serving_size": "1 porsi (150g daging)",
+    "calories": 400,
+    "protein": 30,
+    "carbs": 10,
+    "fat": 28
+  },
+  {
+    "name": "Jjajangmyeon",
+    "aliases": ["mie hitam korea", "blackbean noodle"],
+    "category": "karbohidrat",
+    "serving_size": "1 mangkuk",
+    "calories": 550,
+    "protein": 16,
+    "carbs": 70,
+    "fat": 20
+  },
+  {
+    "name": "Japchae",
+    "aliases": ["bihun korea", "glass noodle korea"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi",
+    "calories": 300,
+    "protein": 8,
+    "carbs": 45,
+    "fat": 10
+  },
+  {
+    "name": "Kimchi",
+    "aliases": ["kimchi korea"],
+    "category": "sayuran",
+    "serving_size": "1 porsi (50g)",
+    "calories": 10,
+    "protein": 0.8,
+    "carbs": 2,
+    "fat": 0.1
+  },
+  {
+    "name": "Bingsu",
+    "aliases": ["patbingsu", "es serut korea"],
+    "category": "snack",
+    "serving_size": "1 porsi",
+    "calories": 400,
+    "protein": 8,
+    "carbs": 65,
+    "fat": 14
+  },
+  {
+    "name": "Ramyeon",
+    "aliases": ["ramyun", "mie korea", "shin ramyun"],
+    "category": "karbohidrat",
+    "serving_size": "1 bungkus",
+    "calories": 450,
+    "protein": 10,
+    "carbs": 58,
+    "fat": 18
+  },
+  {
+    "name": "Sundubu Jjigae",
+    "aliases": ["sup tahu korea", "korean tofu stew"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 250,
+    "protein": 16,
+    "carbs": 12,
+    "fat": 16
+  },
+  {
+    "name": "Rabokki",
+    "aliases": ["ramen tteokbokki", "rapokki"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi",
+    "calories": 500,
+    "protein": 12,
+    "carbs": 68,
+    "fat": 18
+  },
+
+  {
+    "name": "Pho",
+    "aliases": ["pho bo", "pho vietnam", "pho ga"],
+    "category": "karbohidrat",
+    "serving_size": "1 mangkuk",
+    "calories": 400,
+    "protein": 20,
+    "carbs": 50,
+    "fat": 12
+  },
+  {
+    "name": "Pad Thai",
+    "aliases": ["pad thai udang", "mie goreng thailand"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 450,
+    "protein": 16,
+    "carbs": 55,
+    "fat": 18
+  },
+  {
+    "name": "Tom Yum",
+    "aliases": ["tom yam", "tom yum goong", "sup asam pedas thailand"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 200,
+    "protein": 16,
+    "carbs": 12,
+    "fat": 10
+  },
+  {
+    "name": "Green Curry",
+    "aliases": ["kari hijau thailand", "green curry chicken"],
+    "category": "protein",
+    "serving_size": "1 mangkuk",
+    "calories": 350,
+    "protein": 20,
+    "carbs": 12,
+    "fat": 24
+  },
+  {
+    "name": "Som Tam",
+    "aliases": ["papaya salad", "salad papaya thailand"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 120,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 4
+  },
+  {
+    "name": "Mango Sticky Rice",
+    "aliases": ["sticky rice mangga", "ketan mangga"],
+    "category": "snack",
+    "serving_size": "1 porsi",
+    "calories": 350,
+    "protein": 5,
+    "carbs": 55,
+    "fat": 12
+  },
+  {
+    "name": "Banh Mi",
+    "aliases": ["sandwich vietnam", "baguette vietnam"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 380,
+    "protein": 18,
+    "carbs": 42,
+    "fat": 14
+  },
+
+  {
+    "name": "Kebab",
+    "aliases": ["kebab turki", "doner kebab", "kebab daging"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 500,
+    "protein": 22,
+    "carbs": 45,
+    "fat": 25
+  },
+  {
+    "name": "Shawarma",
+    "aliases": ["shawarma ayam", "shawarma wrap"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 450,
+    "protein": 24,
+    "carbs": 40,
+    "fat": 22
+  },
+  {
+    "name": "Naan",
+    "aliases": ["roti naan", "naan bread", "garlic naan"],
+    "category": "karbohidrat",
+    "serving_size": "1 lembar",
+    "calories": 260,
+    "protein": 8,
+    "carbs": 42,
+    "fat": 6
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "aliases": ["tikka masala", "ayam tikka"],
+    "category": "protein",
+    "serving_size": "1 porsi",
+    "calories": 350,
+    "protein": 28,
+    "carbs": 12,
+    "fat": 20
+  },
+  {
+    "name": "Biryani",
+    "aliases": ["nasi biryani", "biryani ayam"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 500,
+    "protein": 20,
+    "carbs": 60,
+    "fat": 20
+  },
+  {
+    "name": "Falafel",
+    "aliases": ["falafel wrap"],
+    "category": "snack",
+    "serving_size": "5 buah",
+    "calories": 300,
+    "protein": 13,
+    "carbs": 30,
+    "fat": 15
+  },
+  {
+    "name": "Hummus",
+    "aliases": ["hummus dip"],
+    "category": "condiment",
+    "serving_size": "3 sendok makan (50g)",
+    "calories": 130,
+    "protein": 6,
+    "carbs": 12,
+    "fat": 7
+  },
+
+  {
+    "name": "Steak Daging Sapi",
+    "aliases": ["steak", "beef steak", "sirloin", "tenderloin", "ribeye"],
+    "category": "protein",
+    "serving_size": "1 potong (200g)",
+    "calories": 500,
+    "protein": 45,
+    "carbs": 0,
+    "fat": 35
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "aliases": ["carbonara", "pasta carbonara"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 550,
+    "protein": 20,
+    "carbs": 55,
+    "fat": 28
+  },
+  {
+    "name": "Spaghetti Aglio Olio",
+    "aliases": ["aglio olio", "pasta aglio olio"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 450,
+    "protein": 12,
+    "carbs": 55,
+    "fat": 20
+  },
+  {
+    "name": "Fettuccine Alfredo",
+    "aliases": ["alfredo", "pasta alfredo"],
+    "category": "karbohidrat",
+    "serving_size": "1 piring",
+    "calories": 550,
+    "protein": 16,
+    "carbs": 55,
+    "fat": 30
+  },
+  {
+    "name": "Lasagna",
+    "aliases": ["lasagne"],
+    "category": "karbohidrat",
+    "serving_size": "1 potong",
+    "calories": 450,
+    "protein": 22,
+    "carbs": 40,
+    "fat": 22
+  },
+  {
+    "name": "Mac and Cheese",
+    "aliases": ["mac n cheese", "macaroni and cheese", "makaroni keju"],
+    "category": "karbohidrat",
+    "serving_size": "1 porsi",
+    "calories": 400,
+    "protein": 14,
+    "carbs": 42,
+    "fat": 20
+  },
+  {
+    "name": "Chicken Wings",
+    "aliases": ["sayap ayam", "buffalo wings", "spicy wings"],
+    "category": "protein",
+    "serving_size": "6 potong",
+    "calories": 400,
+    "protein": 28,
+    "carbs": 10,
+    "fat": 28
+  },
+  {
+    "name": "Fish and Chips",
+    "aliases": ["fish n chips"],
+    "category": "combo",
+    "serving_size": "1 porsi",
+    "calories": 550,
+    "protein": 24,
+    "carbs": 50,
+    "fat": 28
+  },
+  {
+    "name": "Burrito",
+    "aliases": ["burrito ayam", "burrito bowl"],
+    "category": "combo",
+    "serving_size": "1 buah",
+    "calories": 550,
+    "protein": 25,
+    "carbs": 55,
+    "fat": 25
+  },
+  {
+    "name": "Taco",
+    "aliases": ["taco ayam", "taco beef"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 350,
+    "protein": 16,
+    "carbs": 30,
+    "fat": 18
+  },
+  {
+    "name": "Nachos",
+    "aliases": ["nachos keju", "tortilla chips"],
+    "category": "snack",
+    "serving_size": "1 porsi",
+    "calories": 400,
+    "protein": 10,
+    "carbs": 42,
+    "fat": 22
+  },
+  {
+    "name": "Caesar Salad",
+    "aliases": ["salad caesar", "chicken caesar salad"],
+    "category": "sayuran",
+    "serving_size": "1 porsi",
+    "calories": 300,
+    "protein": 18,
+    "carbs": 12,
+    "fat": 22
+  },
+  {
+    "name": "Poke Bowl",
+    "aliases": ["poke", "salmon poke bowl"],
+    "category": "combo",
+    "serving_size": "1 bowl",
+    "calories": 450,
+    "protein": 25,
+    "carbs": 50,
+    "fat": 16
+  },
+  {
+    "name": "Rice Bowl Teriyaki",
+    "aliases": ["teriyaki bowl", "chicken teriyaki bowl"],
+    "category": "combo",
+    "serving_size": "1 bowl",
+    "calories": 500,
+    "protein": 24,
+    "carbs": 60,
+    "fat": 18
+  },
+  {
+    "name": "Sandwich",
+    "aliases": ["sandwich club", "sandwich tuna", "subway"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 380,
+    "protein": 18,
+    "carbs": 35,
+    "fat": 18
+  },
+  {
+    "name": "Hot Dog",
+    "aliases": ["hotdog sosis"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 280,
+    "protein": 10,
+    "carbs": 25,
+    "fat": 16
+  },
+  {
+    "name": "Chicken Popcorn",
+    "aliases": ["popcorn chicken", "ayam popcorn"],
+    "category": "protein",
+    "serving_size": "1 porsi (100g)",
+    "calories": 280,
+    "protein": 18,
+    "carbs": 18,
+    "fat": 16
+  },
+
+  {
+    "name": "Croffle",
+    "aliases": ["croissant waffle", "croffle coklat", "croffle keju"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 280,
+    "protein": 5,
+    "carbs": 32,
+    "fat": 15
+  },
+  {
+    "name": "Bomboloni",
+    "aliases": ["bombolone", "italian donut"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 300,
+    "protein": 5,
+    "carbs": 38,
+    "fat": 14
+  },
+  {
+    "name": "Cromboloni",
+    "aliases": ["cruffin", "croissant bomboloni"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 350,
+    "protein": 5,
+    "carbs": 40,
+    "fat": 18
+  },
+  {
+    "name": "Tiramisu",
+    "aliases": ["tiramisu cake"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 320,
+    "protein": 6,
+    "carbs": 30,
+    "fat": 20
+  },
+  {
+    "name": "Churros",
+    "aliases": ["churros coklat", "churro"],
+    "category": "snack",
+    "serving_size": "3 batang",
+    "calories": 270,
+    "protein": 3,
+    "carbs": 35,
+    "fat": 14
+  },
+  {
+    "name": "Eclair",
+    "aliases": ["eclair coklat", "choux pastry"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 260,
+    "protein": 5,
+    "carbs": 28,
+    "fat": 15
+  },
+  {
+    "name": "Cinnamon Roll",
+    "aliases": ["cinnamon bun", "cinnamon roll keju"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 350,
+    "protein": 5,
+    "carbs": 48,
+    "fat": 16
+  },
+  {
+    "name": "Pain au Chocolat",
+    "aliases": ["chocolate croissant", "pastry coklat"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 280,
+    "protein": 5,
+    "carbs": 30,
+    "fat": 16
+  },
+  {
+    "name": "Danish Pastry",
+    "aliases": ["danish", "pastry keju"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 300,
+    "protein": 5,
+    "carbs": 35,
+    "fat": 16
+  },
+  {
+    "name": "Macaron",
+    "aliases": ["french macaron", "macaroon"],
+    "category": "snack",
+    "serving_size": "3 buah",
+    "calories": 210,
+    "protein": 4,
+    "carbs": 30,
+    "fat": 9
+  },
+  {
+    "name": "Mille Crepe",
+    "aliases": ["mille crepe cake", "kue crepe lapis"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 350,
+    "protein": 6,
+    "carbs": 35,
+    "fat": 22
+  },
+  {
+    "name": "Crepe",
+    "aliases": ["crepe coklat", "crepe keju", "crepe pisang"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 280,
+    "protein": 6,
+    "carbs": 35,
+    "fat": 14
+  },
+  {
+    "name": "Cannoli",
+    "aliases": ["cannoli italian"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 220,
+    "protein": 4,
+    "carbs": 25,
+    "fat": 12
+  },
+  {
+    "name": "Creme Brulee",
+    "aliases": ["crème brûlée", "custard brulee"],
+    "category": "snack",
+    "serving_size": "1 ramekin",
+    "calories": 280,
+    "protein": 5,
+    "carbs": 25,
+    "fat": 18
+  },
+  {
+    "name": "Panna Cotta",
+    "aliases": ["panna cotta vanilla"],
+    "category": "snack",
+    "serving_size": "1 cup",
+    "calories": 240,
+    "protein": 4,
+    "carbs": 22,
+    "fat": 16
+  },
+  {
+    "name": "Red Velvet Cake",
+    "aliases": ["red velvet", "kue red velvet"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 350,
+    "protein": 5,
+    "carbs": 42,
+    "fat": 18
+  },
+  {
+    "name": "Banana Split",
+    "aliases": ["banana split ice cream"],
+    "category": "snack",
+    "serving_size": "1 porsi",
+    "calories": 450,
+    "protein": 6,
+    "carbs": 60,
+    "fat": 22
+  },
+  {
+    "name": "Chocolate Lava Cake",
+    "aliases": ["lava cake", "molten cake", "fondant coklat"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 380,
+    "protein": 6,
+    "carbs": 40,
+    "fat": 22
+  },
+  {
+    "name": "Soft Serve Ice Cream",
+    "aliases": ["soft serve", "mixue", "es krim cone"],
+    "category": "snack",
+    "serving_size": "1 cone",
+    "calories": 180,
+    "protein": 3,
+    "carbs": 28,
+    "fat": 6
+  },
+  {
+    "name": "Acai Bowl",
+    "aliases": ["acai berry bowl"],
+    "category": "snack",
+    "serving_size": "1 bowl",
+    "calories": 350,
+    "protein": 5,
+    "carbs": 55,
+    "fat": 12
+  },
+  {
+    "name": "Chiffon Cake",
+    "aliases": ["chiffon", "kue chiffon"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 200,
+    "protein": 4,
+    "carbs": 28,
+    "fat": 8
+  },
+  {
+    "name": "Cookies",
+    "aliases": ["cookie", "chocolate chip cookie", "kue kering"],
+    "category": "snack",
+    "serving_size": "3 buah",
+    "calories": 210,
+    "protein": 3,
+    "carbs": 28,
+    "fat": 10
+  },
+  {
+    "name": "Banana Bread",
+    "aliases": ["roti pisang", "cake pisang"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 230,
+    "protein": 4,
+    "carbs": 32,
+    "fat": 10
+  },
+  {
+    "name": "Tres Leches Cake",
+    "aliases": ["tres leches"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 300,
+    "protein": 6,
+    "carbs": 35,
+    "fat": 16
+  },
+  {
+    "name": "Basque Burnt Cheesecake",
+    "aliases": ["burnt cheesecake", "basque cheesecake"],
+    "category": "snack",
+    "serving_size": "1 potong",
+    "calories": 350,
+    "protein": 7,
+    "carbs": 22,
+    "fat": 26
+  },
+
+  {
+    "name": "Matcha Croissant",
+    "aliases": ["matcha pastry", "croissant matcha"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 260,
+    "protein": 5,
+    "carbs": 28,
+    "fat": 14
+  },
+  {
+    "name": "Crofflewich",
+    "aliases": ["croffle sandwich", "croffle isi"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 380,
+    "protein": 12,
+    "carbs": 38,
+    "fat": 20
+  },
+  {
+    "name": "Korean Garlic Bread",
+    "aliases": ["cream cheese garlic bread", "roti bawang korea"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 350,
+    "protein": 8,
+    "carbs": 40,
+    "fat": 18
+  },
+  {
+    "name": "Souffle Pancake",
+    "aliases": ["fluffy pancake", "japanese pancake", "souffle"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 300,
+    "protein": 8,
+    "carbs": 35,
+    "fat": 14
+  },
+  {
+    "name": "Egg Tart",
+    "aliases": ["egg tart portugal", "pasteis de nata", "portuguese egg tart"],
+    "category": "snack",
+    "serving_size": "2 buah",
+    "calories": 300,
+    "protein": 6,
+    "carbs": 30,
+    "fat": 18
+  },
+  {
+    "name": "Taiyaki",
+    "aliases": ["kue ikan jepang"],
+    "category": "snack",
+    "serving_size": "1 buah",
+    "calories": 200,
+    "protein": 4,
+    "carbs": 35,
+    "fat": 5
+  },
+  {
+    "name": "Affogato",
+    "aliases": ["affogato coffee"],
+    "category": "minuman",
+    "serving_size": "1 cup",
+    "calories": 180,
+    "protein": 3,
+    "carbs": 18,
+    "fat": 10
+  },
+  {
+    "name": "Einspanner Coffee",
+    "aliases": ["einspanner", "kopi whipped cream"],
+    "category": "minuman",
+    "serving_size": "1 gelas",
+    "calories": 200,
+    "protein": 2,
+    "carbs": 15,
+    "fat": 14
+  },
+  {
+    "name": "Dalgona Coffee",
+    "aliases": ["dalgona", "kopi dalgona"],
+    "category": "minuman",
+    "serving_size": "1 gelas",
+    "calories": 180,
+    "protein": 5,
+    "carbs": 22,
+    "fat": 8
+  },
+  {
+    "name": "Es Kopi Gula Aren",
+    "aliases": ["kopi aren", "es kopi aren", "kopi susu aren"],
+    "category": "minuman",
+    "serving_size": "1 gelas (300ml)",
+    "calories": 170,
+    "protein": 4,
+    "carbs": 24,
+    "fat": 6
+  },
+  {
+    "name": "Dirty Matcha",
+    "aliases": ["dirty matcha latte"],
+    "category": "minuman",
+    "serving_size": "1 gelas",
+    "calories": 200,
+    "protein": 5,
+    "carbs": 28,
+    "fat": 7
+  }
+]
