@@ -1,10 +1,15 @@
 const { default: makeWASocket, DisconnectReason, useMultiFileAuthState } = require('@whiskeysockets/baileys');
 const pino = require('pino');
 const path = require('path');
+const fs = require('fs');
 const qrcode = require('qrcode-terminal');
 const config = require('../config');
 
-const AUTH_DIR = path.join(__dirname, '..', '..', 'auth_info');
+const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, '..', '..');
+const AUTH_DIR = path.join(DATA_DIR, 'auth_info');
+if (!fs.existsSync(AUTH_DIR)) {
+  fs.mkdirSync(AUTH_DIR, { recursive: true });
+}
 
 let sock = null;
 const sentMessageIds = new Set(); // Track bot's own messages to avoid loops

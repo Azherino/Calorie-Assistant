@@ -34,6 +34,28 @@ connectWhatsApp(handleMessage)
     process.exit(1);
   });
 
+// 3. Web Healthcheck Server (untuk Railway / Cloud Monitoring)
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.json({
+    status: 'online',
+    bot: config.botName,
+    message: 'Kalo Calorie Assistant WhatsApp Bot is running healthy 24/7! 🍽️',
+    timestamp: new Date().toISOString()
+  });
+});
+
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🌐 Healthcheck web server listening on port ${PORT}`);
+});
+
 // Graceful shutdown
 function shutdown() {
   console.log('\n🛑 Shutting down...');

@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+.env
+.env.*
+auth_info
+*.db
+*.db-shm
+*.db-wal
+.git
+.gitignore
+README.md
